@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Find Your Tutorial</title>
+  <link rel="stylesheet" href="../static/style_1.css">
+</head>
+<body>
+<h1>Find your tutorial </h1>
+<p>
+<h2>Enter the description of the tutorial you need</h2>
+
+
+ <form  method=post class=add-entry>
+<table style="width:100%">
+  <tr>
+  <td>
+    <div >
+		<dl>
+        <dt>
+		<label for="tutorialtitle">Tutorial Topic: </label>
+        <dd><input type="text" id="tutorialtitle" name="tutorialtitle" class="textinput"/>
+        <dt>
+		<label for="tutorialtypewebsite">Desired tutorial types: </label><dd>
+        <input type="checkbox" name="tutorialtypewebsite" value="website"  /> Web Site<br />
+		<input type="checkbox" name="tutorialtypevideo" value="video"  /> Video<br /> 	
+		<input type="checkbox" name="tutorialtypeaudio" value="audio"  /> Audio<br /> 
+		<input type="checkbox" name="tutorialtypedirections" value="directions"  /> Written directions
+		<dt>
+		<label for="levelofexperience">What learning level do you expect: </label><dd>
+		<select  name="levelofexperience">
+		  <option value="Introduction">Introduction</option>
+		  <option value="Advanced">Advanced</option>
+		  <option value="Reference">Reference</option>
+		</select>
+        <dt>
+		<label for="skillstolearn">What knowledge/skills do you wish to learn(please describe briefly): </label><dd>
+        <dd><input type="text" id="skillstolearn" name="skillstolearn" class="textinput"/>
+		<dt>
+		<label for="knownInformation">What do you already know about this topic: </label><dd>
+        <dd><input type="text" id="knownInformation" name="knownInformation" class="textinput"/>
+		<dt>
+		<label for="sampletutorial">Please provide a sample tutorial</label><br>
+		<dd><dd><input type="text" id="sampletutorial" name="sampletutorial" class="textinput"/>
+		<dt>
+		<label for="budget">What is your budget in $: </label><dd>
+		<dd><input    id="budget"  name="budget"    /> 
+       	<dt>
+		<label for="blacklist">What you already know about this knowledge/skills(please list some keywords that you don’t want to appear in the tutorial)?
+		</label><dd>
+        <dd><textarea rows="6" cols="40" placeholder="Please enter your keywords here" id = "blacklist" name="blacklist"/></textarea>
+		<dt>
+		<label for="comments">Other comments: </label><dd>
+        <dd><textarea rows="6" cols="40" placeholder="Please enter your comments here" id = "comments" name="comments"/></textarea>
+  </dl> 
+	</div>
+</td>
+  </tr>
+ <tr>
+ 
+   <td>
+  <button class="submitbutton" type="submit">Find tutorials</button>
+  </td>
+ </tr>
+  
+</table>
+</form>
+  
+ 
+ 
+</body>
+</html>

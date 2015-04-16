@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Worker_Interface</title>
+  <link rel= "stylesheet" type= "text/css" href= "../static/mystyle_1.css" />
+</head>
+<body onload="fillContent()">
+<form  action="#" method="POST" id ="myForm" onsubmit="getaction(this);">
+<div id="content">
+  <table style="width:100%">
+	<tr>
+	<td  colspan="2" width="100%">
+    <div id="header">
+      <h1> Find tutorials as required</h1>
+    </div>
+	</td>
+	</tr>
+	<tr>
+	<td  colspan="2" width="100%">
+	<div id="Notice"><h1>You must accept this hit to be able to work on its elements</h1></div>
+    </td>
+	</tr>
+  <tr>
+	<td  colspan="1" width="50%">
+    <div id="input">
+        <div >
+          <table >
+            <tr>
+            <td> <h3>Title</h3></td>
+            <td><input type="text" name="Title" id="titileelementid" size="40" /></td>
+            </tr>
+            <tr>
+            <td><h3> Resource Link (if applicable)</h3> </td>
+            <td><input type="text" name="Resource_link" id="urlId" size="40"/></td>
+            </tr>
+            <tr>
+            <td><h3>Main content</h3></td>
+            <td><textarea rows="12" cols="40" placeholder="Main content" id="contentId" name="main"/></textarea></td>
+            </tr>
+            <tr>
+            <td><h3>Comment</h3></td>
+            <td><textarea rows="6" cols="40" placeholder="Please enter your comments here" id = "commentid" name="comment"/></textarea></td>
+            </tr>
+        </table>  
+        </div>
+		</div>
+		</td>
+		<td   colspan="1" width="50%" bgcolor="#F0F0F0"> 
+		<div>
+			<h2>Tutorial Requirements</h2>
+			  <br><h3>{{ requesterTutorialTopic }}</h3><br>
+			  <label  id="requesterTutorialTopicLabel"></label>
+			  <br><h3>Required tutorial formats</h3><br>
+			  <label  id="requesterTutorialFormatsLabel"></label>
+			   <br><h3>Required level of detail</h3><br>
+			  <label  id="requesterLevelOfDetailLabel"></label>
+			    <h3>Desired skill to be acquired</h3>
+			  <label  id="desiredskillLabel"></label>
+			  <h3>Already known information</h3>
+			  <label  id="alreadyknowninformationLabel"></label>
+			  <h3>Sample tutorial</h3>
+			  <label  id="sampletutorialLabel"></label>
+			  <h3>Comment</h3>
+			  <label  id="requestercommentLabel"></label>
+		</div>
+		</td>
+			<tr>
+	<td  colspan="2" width="100%">
+       <div id="submit">
+           <input type="submit"  name="button" value="Submit" id ="submitButtonId" >
+           </p>
+		    <input type="hidden" name="assignmentId" id="assignmentId"/>
+			<input type="hidden" name="hitId" id="hitId"/>
+			<input type="hidden" name="workerId" id="workerId"/>
+			<input type="hidden" name="turkSubmitTo" id="turkSubmitTo"/>
+       </div>
+   </td>
+   </tr>
+   </table>
+  </div>  
+
+      
+
+ </form>
+ <script>
+ 
+  var formAction="#";//"https://workersandbox.mturk.com/mturk/externalSubmit";
+  var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
+  var hitIdVar="hitId";
+  var workerIdVar="workerId";
+  var turkSubmitToVar="turkSubmitTo";
+  var requesterTutorialTopic= {{ requesterTutorialTopic }};
+  var requesterTutorialFormats='url, video, aduio';
+  var requesterLevelOfDetail='Beginner';
+   var desiredskill='sample desiredskill';
+  var alreadyknowninformation='sample alreadyknowninformation';
+  var sampletutuorial='sample sampletutuorial';
+  var requesterComments='sample requester comments';
+  
+function getaction(form){
+   form.action=formAction;
+}
+function readinputarguments(){
+   formAction='{{ formsubmiturl}}';
+   assignmentIdVar='{{ assignmentId}}';
+   hitIdVar='{{ hitId}}';
+   workerIdVar='{{ workerId}}';
+   turkSubmitToVar='{{ turkSubmitTo}}';
+   requesterTutorialTopic='{{ requesterTutorialTopic}}'
+   requesterTutorialFormats='{{ requesterTutorialFormats}}'
+   requesterLevelOfDetail='{{ requesterLevelOfDetail}}'
+   
+    desiredskill = '{{desiredskill}}'
+   alreadyknowninformation= '{{alreadyknowninformation}}'
+   sampletutuorial='{{sampletutuorial}}'
+   requesterComments='{{requesterComments}}'
+}
+function fillContent() {
+    // readinputarguments();
+   
+   
+    document.getElementById('assignmentId').value  =assignmentIdVar;
+    document.getElementById('hitId').value  =hitIdVar; 
+    document.getElementById('workerId').value  =workerIdVar;
+    document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
+	
+
+	
+	document.getElementById('requesterTutorialTopicLabel').innerHTML  =requesterTutorialTopic; 
+    document.getElementById('requesterTutorialFormatsLabel').innerHTML  =requesterTutorialFormats;
+    document.getElementById('requesterLevelOfDetailLabel').innerHTML  =requesterLevelOfDetail;
+	 
+	document.getElementById('desiredskillLabel').innerHTML  =desiredskill; 
+    document.getElementById('alreadyknowninformationLabel').innerHTML  =alreadyknowninformation;
+    document.getElementById('sampletutorialLabel').innerHTML  =sampletutuorial;
+	document.getElementById('requestercommentLabel').innerHTML  =requesterComments;
+	
+	if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
+		document.getElementById("submitButtonId").disabled = false;
+		document.getElementById("titileelementid").disabled = true;
+		document.getElementById("urlId").disabled = true;
+		document.getElementById("contentId").disabled = true;
+		document.getElementById("commentid").disabled = true;
+	    document.getElementById("Notice").style.display = 'block';
+	}
+	else{
+		document.getElementById("Notice").style.display = 'none';
+	}
+
+	document.getElementById("myForm").action=formAction;
+	
+}
+</script>
+</body>
+</html>
+

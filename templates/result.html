@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<title>result</title>
+</head>
+<body>
+<h1>result</h1>
+<table class=entries>
+  {% for entry in requester %}
+  <tr>
+    <td>requester </td>
+    <td>{{ entry.field1 }}</td>
+    <td>{{ entry.field2 }}</td>
+    <td>{{ entry.field3 }}</td>
+    <td>{{ entry.field4 }}</td>
+    <td>{{ entry.field5 }}</td>
+    <td>{{ entry.field6 }}</td>
+    <td>{{ entry.field7 }}</td>
+    <td>{{ entry.field8 }}</td>
+    <td>{{ entry.field9 }}</td>
+    <td>{{ entry.field10 }}</td>
+    <td>{{ entry.field11 }}</td>
+  </tr>
+  {% endfor %}
+  
+  {% for entry in worker1 %}
+  <tr>
+    <td>worker1 </td>
+    <td>{{ entry.field1 }}</td>
+    <td>{{ entry.field2 }}</td>
+    <td>{{ entry.field3 }}</td>
+    <td>{{ entry.field4 }}</td>
+    <td>{{ entry.field5 }}</td>
+    <td>{{ entry.field6 }}</td>
+    <td>{{ entry.field7 }}</td>
+    <td>{{ entry.field8 }}</td>
+    <td>{{ entry.field9 }}</td>
+    <td>{{ entry.field10 }}</td>
+    <td>{{ entry.field11 }}</td>
+  </tr>
+  {% endfor %}
+  
+   {% for entry in worker2 %}
+  <tr>
+    <td>worker2 </td>
+    <td>{{ entry.field1 }}</td>
+  </tr>
+  {% endfor %}
+  
+   {% for entry in worker3 %}
+  <tr>
+    <td>worker3/field1/field2 </td>
+    <td>{{ entry.field1 }}</td>
+  </tr>
+  {% endfor %}
+  
+  
+</table>
+</body>
+</html>

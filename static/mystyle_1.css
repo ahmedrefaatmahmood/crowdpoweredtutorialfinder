@@ -1,0 +1,36 @@
+
+div#content{margin-left:auto;margin-right:auto;width:900px;}
+div#header {background-color:#6cf;height:40px;text-align:center}
+   h1 {text-align:center}
+div#input {width:500px;height:500px;;}
+
+div#table {background-color:#fff;height:450px;}
+ #input_table
+{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-spacing:20px 15px;
+  height:120px;
+  width:400px;
+ 
+  
+ }
+ 
+ #input_table td
+ {
+ text-align: left;
+ 
+ }
+
+
+ 
+div#submit{text-align:center}
+
+div#requester {float:right;background:yellow;}
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+ * {
+      font-family: sans-serif;
+    }
+	td {
+    vertical-align: top;
+}
