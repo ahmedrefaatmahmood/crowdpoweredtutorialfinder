@@ -93,7 +93,7 @@ def requester():
 		db.commit()
 		hit_type = cl.create_hit_type("Label the following?", "Annotate simple text.")
 
-		hit = hit_type.create_hit( url = "https://crowd.ecn.purdue.edu/01/collection/?taskId=requester_count",  height = 800)
+		hit = hit_type.create_hit( url = "https://crowd.ecn.purdue.edu/01/collection/?taskId="+str(requester_count),  height = 800)
 		print hit_type.preview_url	
 
 		return render_template('Requester_1.html')
@@ -197,7 +197,7 @@ def addTutorial():
 	print "tutorial_replications"+str(tutorial_replications)
 	db.commit()
 	if tutorial_count>=tutorial_replications :
-		hit_type = cl.create_hit_type("Comment on the following tutorial?", "Comment on the following tutporla.")
+		hit_type = cl.create_hit_type("Comment on the following tutorial?", "Comment on the following tutorial.")
 		hit = hit_type.create_hit( url = "https://crowd.ecn.purdue.edu/01/evaluating/?taskId="+str(taskId)+"&tutorialId="+str(tutorial_count),  height = 800)
 		print hit_type.preview_url	
 	
@@ -265,7 +265,7 @@ def result():
 
 if __name__== '__main__':
 #	init_db()
-	app.run()
+	app.run(host="127.0.0.1", port=8001)
 	 
 
 
