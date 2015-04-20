@@ -9,7 +9,7 @@
 <body onload="fillContent()">
  
 <div id="content">
- <form  action="/" method="POST" id ="myForm" onsubmit="getaction(this);">
+ <form  method="POST" id ="myForm" onsubmit="getaction();">
   <table style="width:100%">
 	<tr>
 	<td  colspan="2" width="100%">
@@ -73,6 +73,8 @@
 			<input type="hidden" name="hitId" id="hitId"/>
 			<input type="hidden" name="workerId" id="workerId"/>
 			<input type="hidden" name="turkSubmitTo" id="turkSubmitTo"/>
+			<input type="hidden" name="taskId" id="taskId"/>
+			<input type="hidden" name="tutorialId" id="tutorialId"/>
        </div>
 		
 		</td>
@@ -83,7 +85,7 @@
  <script>
  
   var formAction="https://workersandbox.mturk.com/mturk/externalSubmit";
-  var assignmentIdVar="testiung";//'ASSIGNMENT_ID_NOT_AVAILABLE';
+  var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
   var hitIdVar="hitId";
   var workerIdVar="workerId";
   var turkSubmitToVar="turkSubmitTo";
@@ -100,8 +102,8 @@
   var sampletutuorial='sample sampletutuorial';
   var requesterComments='sample requester comments';
   
-function getaction(form){
-   form.action=formAction;
+function getaction(){
+		document.getElementById("submitButtonId").disabled = true;
 }
 function readinputarguments(){
    formAction='{{ formsubmiturl}}';
@@ -109,6 +111,8 @@ function readinputarguments(){
    hitIdVar='{{ hitId}}';
    workerIdVar='{{ workerId}}';
    turkSubmitToVar='{{ turkSubmitTo}}';
+   taskId='{{taskId}}';
+   tutorialId='{{tutorialId}}'
    tutorialTitle='{{ workerTutorialTitle}}';
    contentlabeltext='{{ workerTutorialContent}}';
    resourceurltext='{{ workerTutorialResourceUrl}}';
@@ -124,13 +128,15 @@ function readinputarguments(){
    
 }
 function fillContent() {
-    // readinputarguments();
+    readinputarguments();
    
    
     document.getElementById('assignmentId').value  =assignmentIdVar;
     document.getElementById('hitId').value  =hitIdVar; 
     document.getElementById('workerId').value  =workerIdVar;
     document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
+    document.getElementById('taskId').value  =taskId;
+    document.getElementById('tutorialId').value = tutorialId
 	
 	document.getElementById('titleLabel').innerHTML  =tutorialTitle;
     document.getElementById('contentLabel').innerHTML  =contentlabeltext; 
@@ -148,7 +154,7 @@ function fillContent() {
 	
 	
 	 
-	if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
+	if(assignmentIdVar == 'ASSIGNMENT_ID_NOT_AVAILABLE'){
 		document.getElementById("submitButtonId").disabled = true;
 		document.getElementById("radiobuttonYes").disabled = true;
 		document.getElementById("radiobuttonNo").disabled = true;
@@ -158,7 +164,7 @@ function fillContent() {
 		document.getElementById("Notice").style.display = 'none';
 	}
 
-	document.getElementById("myForm").action=formAction;
+	document.getElementById("myForm").action=formAiction;
 	
 }
 </script>

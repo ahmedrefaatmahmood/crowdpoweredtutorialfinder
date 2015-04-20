@@ -3,11 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Worker_Interface</title>
-  <link rel= "stylesheet" type= "text/css" href= "../static/mystyle_3.css" />
- 
+  <link rel= "stylesheet" type= "text/css" href= "../static/mystyle_3.css" /> 
 </head>
 <body onload="fillContent()">
- <form  action="/" method="POST" id ="myForm" onsubmit="getaction(this);">
+ <form  method="POST" id ="myForm" onsubmit="getaction()">
 <div >
    <table style="width:100%">
 	<tr>
@@ -27,28 +26,17 @@
   <tr>
 		<td  colspan="1" width="50%" >
           <h2>Tutorials are listed here</h2>
-		  <h3>Tutorial 1 </h3>
-		    <label  id="tutorialTitle1"></label><br>
-			<label  id="tutorialContent1"></label><br>
-          <h3>Tutorial 2 </h3>
-		    <label  id="tutorialTitle2"></label><br>
-			<label  id="tutorialContent2"></label><br>
-          <h3>Tutorial 3 </h3>
-		    <label  id="tutorialTitle3"></label><br>
-			<label  id="tutorialContent3"></label><br>
-          <h3>Tutorial 4 </h3>
-		    <label  id="tutorialTitle4"></label><br>
-			<label  id="tutorialContent4"></label><br>
-          <h3>Tutorial 5 </h3>
-		     <label  id="tutorialTitle5"></label><br>
-			<label  id="tutorialContent5"></label><br>
-
+          {% for tutorial in tutorials %}
+		  <h3>----------------------</h3>
+		    Title: {{tutorial.title}}<br>
+			Content: {{tutorial.content}}<br>
+          {% endfor %}
 		</td>
 		<td  colspan="1" width="50%" bgcolor="#F0F0F0" >
 	
 			<div>
 			<h2>Tutorial Requirements</h2>
-			  <h3>Requited tutorial topic</h3>
+			  <h3>Required tutorial topic</h3>
 			  <label  id="requesterTutorialTopicLabel"></label><br>
 			  <h3>Required tutorial formats</h3>
 			  <label  id="requesterTutorialFormatsLabel"></label><br>
@@ -70,11 +58,9 @@
 			   <div id="submit">
 					<br><h3>Choose the best two tutorials</h3><br>
 				   <p>
-					Tutorial 1  <input type="checkbox" name="vote1" value="1" id="tutorialcheckbox1"></br>
-					Tutorial 2  <input type="checkbox" name="vote2" value="2" id="tutorialcheckbox2" ></br>
-					Tutorial 3  <input type="checkbox" name="vote3" value="3" id="tutorialcheckbox3" ></br>
-					Tutorial 4  <input type="checkbox" name="vote4" value="4" id="tutorialcheckbox4"></br>
-					Tutorial 5  <input type="checkbox" name="vote5" value="5" id="tutorialcheckbox5" ></br>
+				    Please type in the tutorial titles</br>
+				    <input type="text" name="vote1" value="1" id="tutorialinput1"></br>
+				    <input type="text" name="vote2" value="2" id="tutorialinput2"></br>
 				    <input type="submit"  name="button" value="Submit" id ="submitButtonId" >
 				    </p>
 					
@@ -90,6 +76,7 @@
 	<input type="hidden" name="hitId" id="hitId"/>
 	<input type="hidden" name="workerId" id="workerId"/>
 	<input type="hidden" name="turkSubmitTo" id="turkSubmitTo"/>
+	<input type="hidden" name="taskId" id="taskId"/>
  </form>
  <script>
  
@@ -101,74 +88,42 @@
   var requesterTutorialTopic='This is a sample requester tutorial information';
   var requesterTutorialFormats='url, video, aduio';
   var requesterLevelOfDetail='Beginner';
-  var tutorialTitle1Var="sample tutorial 1 title"
-  var tutorialContent1Var="sample tutorial 1 content"
-  var tutorialTitle2Var="sample tutorial 2 title"
-  var tutorialContent2Var="sample tutorial 2 content"
-  var tutorialTitle3Var="sample tutorial 3 title"
-  var tutorialContent3Var="sample tutorial 3 content"
-  var tutorialTitle4Var="sample tutorial 4 title"
-  var tutorialContent4Var="sample tutorial 4 content"
-  var tutorialTitle5Var="sample tutorial 5 title"
-  var tutorialContent5Var="sample tutorial 5 content"
-   var desiredskill='sample desiredskill';
+  var desiredskill='sample desiredskill';
   var alreadyknowninformation='sample alreadyknowninformation';
   var sampletutuorial='sample sampletutuorial';
   var requesterComments='sample requester comments';
-function getaction(form){
-   form.action=formAction;
+  var taskId="";
+  
+function getaction(){
+   document.getElementById("submitButtonId").disabled = true;
 }
 function readinputarguments(){
    formAction='{{ formsubmiturl}}';
    assignmentIdVar='{{ assignmentId}}';
    hitIdVar='{{ hitId}}';
    workerIdVar='{{ workerId}}';
+   taskId='{{taskId}}';
    turkSubmitToVar='{{ turkSubmitTo}}';
    requesterTutorialTopic='{{ requesterTutorialTopic}}'
    requesterTutorialFormats='{{ requesterTutorialFormats}}'
    requesterLevelOfDetail='{{ requesterLevelOfDetail}}'
-   tutorialTitle1Var='{{ tutorialTitle1}}'
-   tutorialContent1Var='{{ tutorialContent1}}'
-   tutorialTitle2Var='{{ tutorialTitle2}}'
-   tutorialContent2Var='{{ tutorialContent2}}'
-   tutorialTitle3Var='{{ tutorialTitle3}}'
-   tutorialContent3Var='{{ tutorialContent3}}'
-   tutorialTitle4Var='{{ tutorialTitle4}}'
-   tutorialContent4Var='{{ tutorialContent4}}'
-   tutorialTitle5Var='{{ tutorialTitle5}}'
-   tutorialContent5Var='{{ tutorialContent5}}'
-   
-    desiredskill = '{{desiredskill}}'
+   desiredskill = '{{desiredskill}}'
    alreadyknowninformation= '{{alreadyknowninformation}}'
    sampletutuorial='{{sampletutuorial}}'
    requesterComments='{{requesterComments}}'
 }
 function fillContent() {
-    // readinputarguments();
-   
+    readinputarguments();
    
     document.getElementById('assignmentId').value  =assignmentIdVar;
     document.getElementById('hitId').value  =hitIdVar; 
     document.getElementById('workerId').value  =workerIdVar;
     document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
-	
-
+    document.getElementById('taskId').value  =taskId;
 	
 	document.getElementById('requesterTutorialTopicLabel').innerHTML  =requesterTutorialTopic; 
     document.getElementById('requesterTutorialFormatsLabel').innerHTML  =requesterTutorialFormats;
     document.getElementById('requesterLevelOfDetailLabel').innerHTML  =requesterLevelOfDetail;
-	
-	document.getElementById('tutorialTitle1').innerHTML  =tutorialTitle1Var; 
-    document.getElementById('tutorialTitle2').innerHTML  =tutorialTitle2Var;
-    document.getElementById('tutorialTitle3').innerHTML  =tutorialTitle3Var;
-	document.getElementById('tutorialTitle4').innerHTML  =tutorialTitle4Var;
-	document.getElementById('tutorialTitle5').innerHTML  =tutorialTitle5Var;
-	
-	document.getElementById('tutorialContent1').innerHTML  =tutorialContent1Var; 
-    document.getElementById('tutorialContent2').innerHTML  =tutorialContent2Var;
-    document.getElementById('tutorialContent3').innerHTML  =tutorialContent3Var;
-	document.getElementById('tutorialContent4').innerHTML  =tutorialContent4Var;
-	document.getElementById('tutorialContent5').innerHTML  =tutorialContent5Var;
 	
 	document.getElementById('desiredskillLabel').innerHTML  =desiredskill; 
     document.getElementById('alreadyknowninformationLabel').innerHTML  =alreadyknowninformation;
@@ -177,11 +132,6 @@ function fillContent() {
 	 
 	if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
 		document.getElementById("submitButtonId").disabled = true;
-		document.getElementById("tutorialcheckbox1").disabled = true;
-		document.getElementById("tutorialcheckbox2").disabled = true;
-		document.getElementById("tutorialcheckbox3").disabled = true;
-		document.getElementById("tutorialcheckbox4").disabled = true;
-		document.getElementById("tutorialcheckbox5").disabled = true;
 	    document.getElementById("Notice").style.display = 'block';
 	}
 	else{

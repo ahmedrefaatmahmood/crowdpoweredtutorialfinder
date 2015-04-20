@@ -9,10 +9,10 @@
 <head>
   <meta charset="utf-8">
   <title>Worker_Interface</title>
-  <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='mystyle_1.css') }}" />
+  <link rel= "stylesheet" type= "text/css" href= "./static/mystyle_1.css" />
 </head>
 <body onload="fillContent()">
-<form  action="/" method="POST" id ="myForm" onsubmit="getaction(this);">
+<form  method="POST" id ="myForm" onsubmit= "getaction()" >
 <div id="content">
   <table style="width:100%">
 	<tr>
@@ -107,17 +107,8 @@
   var requesterComments='sample requester comments';
   var taskId="";
   
-function getaction(form){
-
-	jQuery.ajax("/01/addtutorial/",{
-			type: "GET",
-			data: $('form').serialize(),
-			success: function(data) {
-			alert(data.result);
-		},
-	});
-   form.action=formAction;
-   
+function getaction(){
+	document.getElementById("submitButtonId").disabled = true;
 }
 
 function readinputarguments(){
@@ -168,7 +159,7 @@ function fillContent() {
 		document.getElementById("Notice").style.display = 'none';
 	}
 
-	document.getElementById("myForm").action=formAction;
+    document.getElementById("myForm").action=formAction;
 	
 }
 </script>
