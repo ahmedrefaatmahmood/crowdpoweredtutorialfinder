@@ -9,10 +9,41 @@
 <head>
   <meta charset="utf-8">
   <title>Worker_Interface</title>
-  <link rel= "stylesheet" type= "text/css" href= "./static/mystyle_1.css" />
+ <style>
+ 
+div#content{margin-left:auto;margin-right:auto;width:900px;}
+div#header {background-color:#6cf;height:40px;text-align:center}
+   h1 {text-align:center}
+div#input {width:500px;height:500px;;}
+div#table {background-color:#fff;height:450px;}
+ #input_table
+{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-spacing:20px 15px;
+  height:120px;
+  width:400px;
+ 
+  
+ }
+ #input_table td
+ {
+ text-align: left;
+ 
+ }
+div#submit{text-align:center}
+div#requester {float:right;background:yellow;}
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+ * {
+      font-family: sans-serif;
+    }
+	td {
+    vertical-align: top;
+}
+ </style>
 </head>
 <body onload="fillContent()">
-<form  method="POST" id ="myForm" onsubmit= "getaction()" >
+<form  method="POST" id ="myForm" onsubmit= "getaction(this)" >
 <div id="content">
   <table style="width:100%">
 	<tr>
@@ -92,7 +123,7 @@
  </form>
 
  <script>
- 
+  var urlprefix="06";
   var formAction="https://workersandbox.mturk.com/mturk/externalSubmit";
   var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
   var hitIdVar="hitId";
@@ -101,14 +132,28 @@
   var requesterTutorialTopic='This is a sample requester tutorial information';
   var requesterTutorialFormats='url, video, aduio';
   var requesterLevelOfDetail='Beginner';
-   var desiredskill='sample desiredskill';
+  var desiredskill='sample desiredskill';
   var alreadyknowninformation='sample alreadyknowninformation';
   var sampletutuorial='sample sampletutuorial';
   var requesterComments='sample requester comments';
   var taskId="";
   
-function getaction(){
-	document.getElementById("submitButtonId").disabled = true;
+
+function getaction(form){
+    document.getElementById("submitButtonId").disabled = true;
+	jQuery.ajax("/"+urlprefix+"/tutorialcollection/",{
+			type: "POST",
+			data: $('form').serialize(),
+			success: function(data) {
+		//	alert(data.result);
+	     	},
+			error: function(){
+			alert('error');
+			$("#myform").submit();
+			},
+	});
+ //  form.action=formAction;
+   
 }
 
 function readinputarguments(){
@@ -159,7 +204,7 @@ function fillContent() {
 		document.getElementById("Notice").style.display = 'none';
 	}
 
-    document.getElementById("myForm").action=formAction;
+    document.getElementById("myForm").action=turkSubmitToVar+"/mturk/externalSubmit"
 	
 }
 </script>

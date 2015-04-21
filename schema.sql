@@ -9,8 +9,6 @@ create table tasks (
     levelofexperience text,
     knownInformation text,
     sampletutorial text,
-    budget text,
-    blacklist text,
     comments text,
 	tutorialcollectionreplciations INTEGER  DEFAULT 2,
 	tutorialverificationreplications INTEGER  DEFAULT 2,
