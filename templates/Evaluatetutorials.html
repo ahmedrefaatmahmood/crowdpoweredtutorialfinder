@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery-2.1.3.min.js') }}">\x3C/script>')</script>
+<script type=text/javascript>
+ 
+ var root = window.location.protocol + '//' + window.location.host;
+</script>
 <head>
   <meta charset="utf-8">
   <title>Worker_Interface</title>
-  <link rel= "stylesheet" type= "text/css" href= "../static/mystyle_2.css" />
+  <style>
+	div#content{margin-left:auto;margin-right:auto;}
+	div#header {background-color:#6cf;text-align:center}
+	   h1 {text-align:center}
+	div#input {float:left;}
+
+	div#table {float:left;}
+	 
+
+	div#submit{float:left;text-align:center}
+
+	div#requester {float:left;}
+	h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+	h1              { border-bottom: 2px solid #eee; }
+	 * {
+		  font-family: sans-serif;
+		}
+		td {
+		vertical-align: top;
+	}
+  </style>
 
 </head>
 <body onload="fillContent()">
  
 <div id="content">
- <form  action="/" method="POST" id ="myForm" onsubmit="getaction(this);">
+ <form  method="POST" id ="myForm" onsubmit="getaction(this)">
   <table style="width:100%">
 	<tr>
 	<td  colspan="2" width="100%">
@@ -63,16 +89,18 @@
            <h3>Do you think that this tutorial description on the left meets the requirement on the right?</h3>
 		   </br>
            Yes
-           <input type="radio" id="radiobuttonYes" name="vote" value="yes" checked="checked">
+           <input type="radio" id="radiobuttonYes" name="vote" value="yes" checked="checked"/>
            </br>
            No
-           <input type="radio" id="radiobuttonNo" name="vote" value="no"></br>
-           <input type="submit"  name="button" value="Submit" id ="submitButtonId" >
+           <input type="radio" id="radiobuttonNo" name="vote" value="no"/></br>
+           <input type="submit"  name="button" value="Submit" id ="submitButtonId" />
            </p>
 		    <input type="hidden" name="assignmentId" id="assignmentId"/>
 			<input type="hidden" name="hitId" id="hitId"/>
 			<input type="hidden" name="workerId" id="workerId"/>
 			<input type="hidden" name="turkSubmitTo" id="turkSubmitTo"/>
+			<input type="hidden" name="taskId" id="taskId"/>
+			<input type="hidden" name="tutorialId" id="tutorialId"/>
        </div>
 		
 		</td>
@@ -81,9 +109,9 @@
     </form>
   </div>  
  <script>
- 
+  var urlprefix="06";
   var formAction="https://workersandbox.mturk.com/mturk/externalSubmit";
-  var assignmentIdVar="testiung";//'ASSIGNMENT_ID_NOT_AVAILABLE';
+  var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
   var hitIdVar="hitId";
   var workerIdVar="workerId";
   var turkSubmitToVar="turkSubmitTo";
@@ -100,15 +128,15 @@
   var sampletutuorial='sample sampletutuorial';
   var requesterComments='sample requester comments';
   
-function getaction(form){
-   form.action=formAction;
-}
 function readinputarguments(){
+
    formAction='{{ formsubmiturl}}';
    assignmentIdVar='{{ assignmentId}}';
    hitIdVar='{{ hitId}}';
    workerIdVar='{{ workerId}}';
    turkSubmitToVar='{{ turkSubmitTo}}';
+   taskId='{{taskId}}';
+   tutorialId='{{tutorialId}}'
    tutorialTitle='{{ workerTutorialTitle}}';
    contentlabeltext='{{ workerTutorialContent}}';
    resourceurltext='{{ workerTutorialResourceUrl}}';
@@ -123,14 +151,35 @@ function readinputarguments(){
    requesterComments='{{requesterComments}}'
    
 }
+
+function getaction(form){
+	
+    //document.getElementById("submitButtonId").disabled = true;
+	//alert(document.getElementById('radiobuttonYes').value)
+	jQuery.ajax("/"+urlprefix+"/tutorialevaluating/",{
+			type: "POST",
+			data: $('form').serialize(),
+			success: function(data) {
+			//alert(data.result);
+		    },
+			error: function(){
+			alert('error');
+			$("#myform").submit();
+			},
+	});
+  // form.action=formAction;
+}
+
 function fillContent() {
-    // readinputarguments();
+    readinputarguments();
    
    
     document.getElementById('assignmentId').value  =assignmentIdVar;
     document.getElementById('hitId').value  =hitIdVar; 
     document.getElementById('workerId').value  =workerIdVar;
     document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
+    document.getElementById('taskId').value  =taskId;
+    document.getElementById('tutorialId').value = tutorialId
 	
 	document.getElementById('titleLabel').innerHTML  =tutorialTitle;
     document.getElementById('contentLabel').innerHTML  =contentlabeltext; 
@@ -148,7 +197,7 @@ function fillContent() {
 	
 	
 	 
-	if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
+	if(assignmentIdVar == 'ASSIGNMENT_ID_NOT_AVAILABLE'){
 		document.getElementById("submitButtonId").disabled = true;
 		document.getElementById("radiobuttonYes").disabled = true;
 		document.getElementById("radiobuttonNo").disabled = true;
@@ -158,7 +207,7 @@ function fillContent() {
 		document.getElementById("Notice").style.display = 'none';
 	}
 
-	document.getElementById("myForm").action=formAction;
+	document.getElementById("myForm").action=turkSubmitToVar+"/mturk/externalSubmit";
 	
 }
 </script>

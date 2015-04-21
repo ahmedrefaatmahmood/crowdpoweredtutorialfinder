@@ -9,8 +9,6 @@ create table tasks (
     levelofexperience text,
     knownInformation text,
     sampletutorial text,
-    budget text,
-    blacklist text,
     comments text,
 	tutorialcollectionreplciations INTEGER  DEFAULT 2,
 	tutorialverificationreplications INTEGER  DEFAULT 2,
@@ -29,29 +27,17 @@ create table tutorials (
     assignmentId text,
     hitId text,
     workerId text,
-    turkSubmitTo text
-);
-
-drop table if exists verifications;
-create table verifications (
-	id integer,
-    taskid integer,
-	tutorialid  integer,
-    overallAcceptance text,
-	meetsFormat text,
-	meetsDesiredLevel text,
-	meetsDesiredSkillRequired text,	
-    hitId text,
-    workerId text,
-    turkSubmitTo text
+    turkSubmitTo text,
+    agree integer,
+    disagree integer
 );
 
 drop table if exists votes;
 create table votes (
-	id integer,
     taskid integer,
-	tutorial1id  integer,
-	tutorial2id  integer,
+	tutorial1  text,
+	tutorial2  text,
+	assignmentId text,
     hitId text,
     workerId text,
     turkSubmitTo text

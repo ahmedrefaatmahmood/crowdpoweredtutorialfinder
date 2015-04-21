@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+<title>result</title>
+</head>
+<body>
+<h1>result</h1>
+<table class=entries>
+  <tr>
+    <td> Tutorials found right now: </td>
+  </tr>
+  
+   {% for entry in votes %}
+  <tr>
+    <td> No.1 </td>
+    <td>{{ entry.field2 }}</td>
+    <td> No.2 </td>
+    <td>{{ entry.field3 }}</td>
+  </tr>
+  
+  {% endfor %}
+  
+  
+</table>
+</body>
+</html>

@@ -5,9 +5,9 @@
 <body>
 <h1>result</h1>
 <table class=entries>
-  {% for entry in requester %}
+  {% for entry in tasks %}
   <tr>
-    <td>requester </td>
+    <td>tasks </td>
     <td>{{ entry.field1 }}</td>
     <td>{{ entry.field2 }}</td>
     <td>{{ entry.field3 }}</td>
@@ -19,12 +19,15 @@
     <td>{{ entry.field9 }}</td>
     <td>{{ entry.field10 }}</td>
     <td>{{ entry.field11 }}</td>
+    <td>{{ entry.field12 }}</td>
+    <td>{{ entry.field13 }}</td>
+    <td>{{ entry.field14 }}</td>
   </tr>
   {% endfor %}
   
-  {% for entry in worker1 %}
+  {% for entry in tutorials %}
   <tr>
-    <td>worker1 </td>
+    <td>tutorials </td>
     <td>{{ entry.field1 }}</td>
     <td>{{ entry.field2 }}</td>
     <td>{{ entry.field3 }}</td>
@@ -36,20 +39,20 @@
     <td>{{ entry.field9 }}</td>
     <td>{{ entry.field10 }}</td>
     <td>{{ entry.field11 }}</td>
+    <td>{{ entry.field12 }}</td>
   </tr>
   {% endfor %}
   
-   {% for entry in worker2 %}
+   {% for entry in votes %}
   <tr>
-    <td>worker2 </td>
+    <td>votes </td>
     <td>{{ entry.field1 }}</td>
-  </tr>
-  {% endfor %}
-  
-   {% for entry in worker3 %}
-  <tr>
-    <td>worker3/field1/field2 </td>
-    <td>{{ entry.field1 }}</td>
+    <td>{{ entry.field2 }}</td>
+    <td>{{ entry.field3 }}</td>
+    <td>{{ entry.field4 }}</td>
+    <td>{{ entry.field5 }}</td>
+    <td>{{ entry.field6 }}</td>
+    <td>{{ entry.field7 }}</td>
   </tr>
   {% endfor %}
   
