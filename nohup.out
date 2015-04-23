@@ -1,0 +1,1092 @@
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Apr/2015 19:37:14] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:37:48] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:38:20] "GET /06/requester HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Apr/2015 19:45:19] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:45:34] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:53:26] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [21/Apr/2015 19:53:26] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:53:55] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:54:18] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:54:19] "GET /06/collection/?taskId=1&assignmentId=3YDGXNSEO08CYDVWF77TZ1MCU9F48V&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM&workerId=A6UCL995Y1LFC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:54:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:56:46] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:59:12] "GET /06/collection/?taskId=1&assignmentId=3YDGXNSEO08CYDVWF77TZ1MCU9F48V&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM&workerId=A6UCL995Y1LFC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 19:59:48] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 20:04:13] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 20:07:42] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 20:10:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 20:22:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 20:23:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 21:14:59] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 21:19:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 21:42:23] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2015 23:37:37] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 00:54:59] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 01:08:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 01:08:59] "GET /06/collection/?taskId=1&assignmentId=3Z4XG4ZF4953WFJ6ZI9YWCJAN42X8L&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 01:45:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 03:08:44] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 03:38:05] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 04:38:36] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 05:50:06] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 05:52:27] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 06:44:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 07:33:15] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 07:34:14] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 07:41:00] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 08:28:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 08:44:15] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 10:09:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 10:16:27] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 10:23:44] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 10:47:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 10:48:01] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3MZ3TAMYTL1A25BD93AVVZWHJC8RIM HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Apr/2015 14:03:20] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:09:41] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [22/Apr/2015 14:09:41] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:09:50] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:25] "GET /06/collection/?taskId=1&assignmentId=3E13VNJ1NO9OVKAQ1B0IES9NLMK1IZ&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A36SM7QM8OK3H6&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:27] "GET /06/collection/?taskId=1&assignmentId=3W8CV64QJ3D6OU21Z6XQTMQRJLT9HN&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A1QY7CBO7FNPO8&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:31] "GET /06/collection/?taskId=1&assignmentId=3G5W44VEU8WC5UQHJX6XYVS6FFRGKO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A1FBO95OVBYOH1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:32] "GET /06/collection/?taskId=1&assignmentId=3TPWUS5F8AFQJI4T6PTHWF1M4U8WCQ&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A9GNNAGBWOFAM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:37] "GET /06/collection/?taskId=1&assignmentId=3RYC5T2D74745BWBC05HTGSCBY8RPW&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A27O2IILV3S5YS&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:44] "GET /06/collection/?taskId=1&assignmentId=3RYC5T2D74745BWBC05HTGSCBY8RPW&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A35RGUQZRI1Q3M&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:10:54] "GET /06/collection/?taskId=1&assignmentId=3G5W44VEU8WC5UQHJX6XYVS6FFRGKO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A5EU1AQJNC7F2&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:11:18] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:11:54] "GET /06/collection/?taskId=1&assignmentId=3QFUFYSY9ZTLDS5JNLDZ9T3YHE24FO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A130UW3VJCW7A0&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:11:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:12:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:13:07] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:13:16] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:17:44] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:17:58] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:02] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:02] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3CTOC39K384Y1H9Y892RR3F01N9J7Q&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1GKEEI844CEKI&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3018Q3ZVOJ4XI7Q9NHNK3L3HCC9AR0&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:09] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:12] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:15] "POST /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3018Q3ZVOJ4XI7Q9NHNK3L3HCC9AR0&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:18:17] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3QUO65DNQV2E03CR1UN79RA68SHOUH&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=AJ94N3I1A434D&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:22] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:29] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:43] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3GLB5JMZFY94ROK7RGKAUIXGV6VDG9&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A27GZN1JOOIAUW&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:18:44] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3ZV9H2YQQEL26I8ADWIG3CXSYHWW3T&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1VJAKNGJPT0M3&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:19:04] "GET /06/collection/?taskId=1&assignmentId=3QFUFYSY9ZTLDS5JNLDZ9T3YHE24FO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A130UW3VJCW7A0&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:19:12] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:19:12] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:19:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:20:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:20:17] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:20:34] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:20:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:21:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:21:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=34X6J5FLPUC87ZED48BXRUWV6D1JQO&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1FU6U0YWOE3RO&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:21:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3C5W7UE9CG4IH4LATJJH1UK57AKMXT&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A2HJILSBIS7TQS&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:21:57] "GET /06/collection/?taskId=1&assignmentId=3TPWUS5F8AFQJI4T6PTHWF1M4U8WCQ&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A9GNNAGBWOFAM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:22:22] "POST /06/evaluating/?taskId=1&tutorialId=1&assignmentId=34X6J5FLPUC87ZED48BXRUWV6D1JQO&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1FU6U0YWOE3RO&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:22:41] "POST /06/evaluating/?taskId=1&tutorialId=1&assignmentId=34X6J5FLPUC87ZED48BXRUWV6D1JQO&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1FU6U0YWOE3RO&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:23:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3QUO65DNQV2E03CR1UN79RA68SHOUH&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=AJ94N3I1A434D&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:23:08] "GET /06/collection/?taskId=1&assignmentId=3VHP9MDGROYO8WIYG0JHSRFM9RJFCC&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A2GZN7DE7UKJRU&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:24:36] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3OUYGIZWR8CG5HCCINM29KRP28B0P9&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A17KIXJGFCB7ZQ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:24:36] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:24:50] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:25:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:25:55] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:26:35] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:27:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:16] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:16] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:16] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:24] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:37] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=30BUDKLTXE9B3X9N6FC3W3OC59J5ED&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:40] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:27:52] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:27:58] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:00] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:29] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3180JW2OT5QJEDVFKGNUTJ14AHF5JY&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1J4AZL6MZ675U&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:29] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:31] "GET /06/voting/?taskId=1&assignmentId=3FTF2T8WLSWOLKXQU5JQUP0EY979WO&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A158KJBJQXTU5S&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:31] "GET /06/voting/?taskId=1&assignmentId=3FDJT1UU75MEPX1X21N6UY1HP6F5KX&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1VLZL3CA1WMPT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:33] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:34] "GET /06/voting/?taskId=1&assignmentId=374TNBHA8C9Y2O9CQ8C01HBJJHBYQY&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:48] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=Video%3AMicrowave+Chicken+Nuggets&assignmentId=374TNBHA8C9Y2O9CQ8C01HBJJHBYQY&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+request_count=1
+task_flag=[0]
+task_flag=[0]
+tutorial_count1
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56564)
+----------------------------------------
+tutorial_count2
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56611)
+----------------------------------------
+worker_count[0]
+https://www.mturk.com
+yes_count1
+total 1 votes
+<sqlite3.Row object at 0x7f8092debdd0>
+1
+<sqlite3.Row object at 0x7f8092debd90>
+2
+voter_count[5]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56623)
+----------------------------------------
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[4]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'dire127.0.0.1 - - [22/Apr/2015 14:28:50] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:56] "GET /06/collection/?taskId=1&assignmentId=3O6CYIULEEFM5CLTSGEHQLNSBUGUWZ&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A1RHQEWFCONEP8&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:28:57] "GET /06/voting/?taskId=1&assignmentId=3WYGZ5XF3XTFVZZ8EX0EN9B93QNKSE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:29:23] "GET /06/tutorialvoting/?vote1=How+to+make+chicken+nuggets+in+a+microwave&vote2=How+to+make+chicken+nuggets+in+a+microwave&assignmentId=3FTF2T8WLSWOLKXQU5JQUP0EY979WO&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A158KJBJQXTU5S&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:29:33] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3IXEICO793X9BKRY1TB3NV2D4EHT67&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=AWN1PEZWRQSQ9&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:29:50] "POST /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3IXEICO793X9BKRY1TB3NV2D4EHT67&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=AWN1PEZWRQSQ9&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:29:57] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3V0Z7YWSIZE06BCMJMZFY09MLUV2VF&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:30:05] "GET /06/tutorialvoting/?vote1=How+to+make+chicken+nuggets+in+a+microwave&vote2=How+to+make+chicken+nuggets+in+a+microwave&assignmentId=3FDJT1UU75MEPX1X21N6UY1HP6F5KX&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1VLZL3CA1WMPT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:30:47] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:30:55] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3LPW2N6LKUGSST69WFR80LAFRXD5UU&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=A2HJILSBIS7TQS&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:31:51] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3QUO65DNQV2E03CR1UN79RA68SHOUH&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=AJ94N3I1A434D&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:31:51] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:31:52] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:32:15] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:15] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:15] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:15] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:29] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:30] "GET /06/voting/?taskId=1&assignmentId=3B2X28YI3XT9FYXH17KIN1WRY7I6BV&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1FBO95OVBYOH1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+ctions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[3]
+voter_count[2]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+worker_count[0]
+https://www.mturk.com
+no_count1
+total 2 votes
+<sqlite3.Row object at 0x7f8092debd10>
+1
+<sqlite3.Row object at 0x7f8092debd90>
+2
+voter_count[7]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56653)
+----------------------------------------
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicke127.0.0.1 - - [22/Apr/2015 14:32:32] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:38] "GET /06/voting/?taskId=1&assignmentId=3FIJLY1B6VI72LR2L55NCRET8AZFPR&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:39] "GET /06/collection/?taskId=1&assignmentId=3QFUFYSY9ZTLDS5JNLDZ9T3YHE24FO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A2RMJNF6IPI42F&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:41] "GET /06/voting/?taskId=1&assignmentId=3WMOAN2SRCBWVX1F55XZQOCKWPMNVR&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:45] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=Video%3AMicrowave+Chicken+Nuggets&assignmentId=3WMOAN2SRCBWVX1F55XZQOCKWPMNVR&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:32:53] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:33:08] "GET /06/collection/?taskId=1&assignmentId=3QFUFYSY9ZTLDS5JNLDZ9T3YHE24FO&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A2RMJNF6IPI42F&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:33:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:33:32] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:34:37] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+n nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[6]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach 127.0.0.1 - - [22/Apr/2015 14:35:17] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:35:34] "GET /06/voting/?taskId=1&assignmentId=3WYGZ5XF3XTFVZZ8EX0EN9B93QNKSE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:24] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:25] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=How+to+make+chicken+nuggets+in+a+microwave&assignmentId=3WYGZ5XF3XTFVZZ8EX0EN9B93QNKSE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:30] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3V0Z7YWSIZE06BCMJMZFY09MLUV2VF&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:31] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:36:41] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:48] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:52] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3RKNTXVS3NCQH1OBC5R7VSS7KYR4AD&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1QO85C4O0WK1G&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:52] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:53] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 14:36:53] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:54] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:36:54] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:05] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=35DR22AR5EYHVID0N1E25VBZ7J3X3O&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A13VIJ7G997ZCY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:07] "GET /06/voting/?taskId=1&assignmentId=324G5B4FB4MRZB8CM1SL9Y042E5072&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1FBO95OVBYOH1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:08] "POST /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3RKNTXVS3NCQH1OBC5R7VSS7KYR4AD&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A1QO85C4O0WK1G&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:37:08] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=3SUWZRL0MZR7M191BYM8O92C14UE62&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:10] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:12] "GET /06/voting/?taskId=1&assignmentId=3FIJLY1B6VI72LR2L55NCRET8AZFPR&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:19] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=3SUWZRL0MZR7M191BYM8O92C14UE62&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:37:26] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=Microwaving+Chicken+Nuggets&assignmentId=3FIJLY1B6VI72LR2L55NCRET8AZFPR&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1FKZ2HY4XKMG1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:26] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:29] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=3SUWZRL0MZR7M191BYM8O92C14UE62&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:37:32] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=3SUWZRL0MZR7M191BYM8O92C14UE62&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[5]
+tutorial_count3
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56685)
+----------------------------------------
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+worker_count[0]
+https://www.mturk.com
+no_count2
+total 3 votes
+<sqlite3.Row object at 0x7f8092debe70>
+1
+<sqlite3.Row object at 0x7f8092debc90>
+2
+<sqlite3.Row object at 0x7f8092debd30>
+3
+voter_count[10]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 56693)
+----------------------------------------
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[9]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by micr127.0.0.1 - - [22/Apr/2015 14:37:34] "GET /06/voting/?taskId=1&assignmentId=3XIQGXAUMDMZW1ENPDHSICNFCLPX7T&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A2ALWT2BUSXD83&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:41] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=35DR22AR5EYHVID0N1E25VBZ7J3X3O&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A13VIJ7G997ZCY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:37:42] "GET /06/voting/?taskId=1&assignmentId=3SNLUL3WO516UI9UO27FHA6CDNDLUY&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:44] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=Video%3AMicrowave+Chicken+Nuggets&assignmentId=3SNLUL3WO516UI9UO27FHA6CDNDLUY&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A2G4HMUKKEDQXC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:46] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:47] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=Microwaving+Chicken+Nuggets&assignmentId=324G5B4FB4MRZB8CM1SL9Y042E5072&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1FBO95OVBYOH1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:48] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:37:51] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=35DR22AR5EYHVID0N1E25VBZ7J3X3O&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A13VIJ7G997ZCY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:38:01] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=35DR22AR5EYHVID0N1E25VBZ7J3X3O&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A13VIJ7G997ZCY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:38:26] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:38:36] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:38:39] "GET /06/voting/?taskId=1&assignmentId=3X4JMASXCNNE1NB2ZI41E0M0L4W0BO&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A2ALWT2BUSXD83&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:38:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:40:26] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+owave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[8]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[7]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u127.0.0.1 - - [22/Apr/2015 14:40:36] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:42:15] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:42:25] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:43:31] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:43:44] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=32SCWG5HIIIBJSYRKC2JIL1GFBY6PH&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A3TEPGQ7ISU4VV&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:43:48] "GET /06/voting/?taskId=1&assignmentId=3L6L49WXW1BTBVCUH90QNHCLSKR458&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC&workerId=A1LOD3LNX7FUPJ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:44:07] "POST /06/evaluating/?taskId=1&tutorialId=3&assignmentId=32SCWG5HIIIBJSYRKC2JIL1GFBY6PH&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91&workerId=A3TEPGQ7ISU4VV&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [22/Apr/2015 14:44:11] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:44:22] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:44:26] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 14:44:28] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 14:44:38] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:45:11] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3GLB5JMZFY94ROK7RGKAUIXGV6VDG9&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC&workerId=A27GZN1JOOIAUW&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:46:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:47:48] "GET /06/result/ HTTP/1.0" 200 -
+'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nu127.0.0.1 - - [22/Apr/2015 14:51:40] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:59:00] "GET /06/collection/?taskId=1&assignmentId=3TPWUS5F8AFQJI4T6PTHWF1M4U8WCQ&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A2U6D0T6GFXZIF&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 14:59:58] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:03:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:03:20] "GET /06/collection/?taskId=1&assignmentId=3K4J6M3CXF76THHV76T84HPAA33AG9&hitId=30IRMPJWDZX1801196V78FBUBHPKRK&workerId=A2JQR5BQRLVT1U&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:07:23] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:07:29] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:10:00] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 15:10:03] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:10:29] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 15:10:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:11:00] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3YDTZAI2WYUUNDBBGMYEKRZ4G4Q41U&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=ANAP6CHXLL226&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:11:05] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:11:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:12:03] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:16:46] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3NPFYT4IZDIIPUPOIGLMOP08BOEGXL&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ&workerId=A2BMF0GZ5E8DLL&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:16:51] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:17:03] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:17:56] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:19:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:22:16] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:23:16] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:23:32] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+ggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+tutorial_count3
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 57007)
+----------------------------------------
+tutorial_count4
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 57011)
+----------------------------------------
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The t127.0.0.1 - - [22/Apr/2015 15:23:40] "GET /06/voting/?taskId=1&assignmentId=3H8DHMCCWAP9TAGQH75PSAP92NKKDR&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A22I19IP73HB0D&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:26] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:37] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:40] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:24:49] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:27:24] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:27:45] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:28:11] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:30:41] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:30:58] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:31:14] "GET /06/voting/?taskId=1&assignmentId=36WLNQG780ODSDQW7P3GZPO4F6EBEV&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A1NUKP1UCT2R2R&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:31:48] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+utorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+task_flag=[0]
+task_flag=[0]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken n127.0.0.1 - - [22/Apr/2015 15:38:40] "GET /06/voting/?taskId=1&assignmentId=3FTOP5WARG2KJ69ENAHICO5DTAE0JK&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A2ITZXZUNY6Y51&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:39:54] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=How+to+Microwave+Chicken+Tenders&assignmentId=3FTOP5WARG2KJ69ENAHICO5DTAE0JK&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ&workerId=A2ITZXZUNY6Y51&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:39:57] "GET /06/voting/?taskId=1&assignmentId=3TXD01ZLD5VAWA29IA8YVT41R2T4U1&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A2ITZXZUNY6Y51&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:40:28] "GET /06/tutorialvoting/?vote1=Video%3AMicrowave+Chicken+Nuggets&vote2=How+to+Microwave+Chicken+Tenders&assignmentId=3TXD01ZLD5VAWA29IA8YVT41R2T4U1&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS&workerId=A2ITZXZUNY6Y51&turkSubmitTo=https%3A%2F%2Fwww.mturk.com&taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:42:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:25] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:25] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:25] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:25] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:25] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:26] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:26] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:43:27] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:43:27] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:09] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+uggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[6]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+voter_count[5]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, f127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:17] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:44:36] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:44:41] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:44:54] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:31] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:46] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+ull of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to c127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:45:53] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:00] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:02] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:06] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:07] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:11] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:14] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+ook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, f127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:18] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:46:19] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:19] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:24] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:32] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:37] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:37] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:37] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:37] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:37] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:38] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:38] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:46:38] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:41] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:43] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:50] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:50] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:50] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:50] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 200 -
+ew advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nuggets by frying and how to use microwave oven', u'Like the Youtube video "Making apple pie at home"', u'I just need a tutorial which could teach me how to cook chicken nuggets easily with microwave oven at home. The tutorial should be easy to read, full of details, few advertisements. The tutorial should be able to teach me how to cook in 10 minutes.', 5, 5, 5, u'Cooking chicken nuggets by microwave oven')]
+[(1, u'chicken nuggets && microwave oven', u'website', u'video', None, u'directions', u'Introduction', u'I know how to cook chicken nugge127.0.0.1 - - [22/Apr/2015 15:46:50] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:51] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:51] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 15:46:51] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:51] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:55] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 15:46:57] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+127.0.0.1 - - [22/Apr/2015 16:42:59] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:04] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [22/Apr/2015 16:47:04] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:08] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:16] "GET /06/collection/?taskId=1&assignmentId=35USIKEBNSUBG7ME4XPREWWLFXB6N1&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A3FURNEHDNA7AR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:21] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:23] "GET /06/collection/?taskId=1&assignmentId=3OE22WJIGJ2HLFP7G7FBYW56NUGUQE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A25D66AC4QUW2U&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:24] "GET /06/collection/?taskId=1&assignmentId=3E13VNJ1NO9OVKAQ1B0IES9NLN11II&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A2OO4PG3LBLP5I&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:27] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:33] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:33] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:34] "GET /06/collection/?taskId=1&assignmentId=3VHP9MDGROYO8WIYG0JHSRFM9S0FCV&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A17O8OYJ1U3CV&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:36] "GET /06/collection/?taskId=1&assignmentId=3BXQMRHWK0CQ00RFOE8UHNL1DTJUMR&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A3FAH5S2RGZ5AK&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:47:47] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:48:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:48:13] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:48:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:48:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:48:58] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:49:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:49:17] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:49:45] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:49:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:50:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:50:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:50:13] "GET /06/collection/?taskId=1&assignmentId=3FPRZHYEPZLPRT85NMDKHAEER9BV31&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A1PLZ0172SZAO1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:50:33] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:50:45] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:51:31] "GET /06/collection/?taskId=1&assignmentId=32SVAV9L3GN5Z557CRMOLN016ZB3A9&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=AI1MF6MS74XFY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:53:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:53:18] "GET /06/collection/?taskId=1&assignmentId=3FPRZHYEPZLPRT85NMDKHAEER9BV31&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A1PLZ0172SZAO1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:53:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:53:37] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:53:49] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:54:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:54:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:07] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:13] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:19] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:31] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:31] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:43] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:55:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:07] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:18] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:21] "GET /06/collection/?taskId=1&assignmentId=35USIKEBNSUBG7ME4XPREWWLFXB6N1&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A3FURNEHDNA7AR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:27] "GET /06/collection/?taskId=1&assignmentId=35USIKEBNSUBG7ME4XPREWWLFXB6N1&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A3FURNEHDNA7AR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:45] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:56:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:57:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:57:09] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:57:18] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:58:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:58:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:58:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:58:45] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:58:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:59:05] "GET /06/collection/?taskId=1&assignmentId=3FPRZHYEPZLPRT85NMDKHAEER9BV31&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A1PLZ0172SZAO1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:59:08] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:59:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:59:44] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 16:59:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:00:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:01:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:01:36] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:01:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:01:48] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:02:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:02:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:02:10] "GET /06/collection/?taskId=1&assignmentId=31LM9EDVOM6N421LOGJGN01Q13WNJP&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=AJ34WB9Z37ILU&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:02:56] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:05:21] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 17:05:54] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [22/Apr/2015 17:07:07] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:09] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:10] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:13] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3ATTHHXXWB2WLLVJ84LP91DOQ2HIXS&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1&workerId=A1XFX3TSH4ETX1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:14] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:15] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3ZV9H2YQQEL26I8ADWIG3CXSYIEW3D&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1&workerId=A109CH3492UU42&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:23] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3MB8LZR5BG7SRM4IUO3DBNXEBXWLKK&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1&workerId=A38K3QQPV8CTPC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:40] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:42] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=34YB12FSQZ27VIQK49JDD8KA4L6MGL&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU&workerId=A109CH3492UU42&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:42] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:44] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:50] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:53] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:07:58] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3EF8EXOTT29KQVUWJTLIQTONY2S1JW&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU&workerId=A1XFX3TSH4ETX1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:08:21] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:08:42] "GET /06/collection/?taskId=1&assignmentId=3OE22WJIGJ2HLFP7G7FBYW56NUGUQE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A25D66AC4QUW2U&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:09:43] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:09:47] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=39RP059MEI7B41I9ONRZCXTDO8EMB4&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU&workerId=A38K3QQPV8CTPC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:16] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:23] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:10:24] "GET /06/collection/?taskId=1&assignmentId=30BXRYBRP5BH0QF9SH7I76Y2HNWWHK&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A13GNAYTZ7WAXG&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:11:21] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:11:24] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:11:28] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:11:39] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:38] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:12:49] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:13:04] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:13:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:12] "GET /06/collection/?taskId=1&assignmentId=30BXRYBRP5BH0QF9SH7I76Y2HNWWHK&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A13GNAYTZ7WAXG&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:16] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:22] "GET /06/collection/?taskId=1&assignmentId=30BXRYBRP5BH0QF9SH7I76Y2HNWWHK&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y&workerId=A13GNAYTZ7WAXG&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:48] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:48] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:49] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:51] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:14:51] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+request_count=1
+task_flag=[0]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+tutorial_count1
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 32999)
+----------------------------------------
+tutorial_count2
+woker_count[0]
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 33033)
+----------------------------------------
+worker_count[0]
+https://www.mturk.com
+yes_count1
+total 1 votes
+worker_count[0]
+https://www.mturk.com
+yes_count2
+total 2 votes
+worker_count[0]
+https://www.mturk.com
+yes_count1
+total 3 votes
+worker_count[0]
+https://www.mturk.com
+yes_count2
+total 4 votes
+task_flag=[0]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web applica127.0.0.1 - - [22/Apr/2015 17:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:52] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:14:52] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:17:11] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3A4NIXBJ77DNHA4LF0GTQ0PI02SLMQ&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU&workerId=A1LOD3LNX7FUPJ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:17:32] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:17:53] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:02] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3QUO65DNQV2E03CR1UN79RA68T1OU3&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1&workerId=A1LOD3LNX7FUPJ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:18:51] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:19:04] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:19:27] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:20:31] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:21:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:22:00] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:22:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:24:37] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:24:55] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:26:45] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=39K0FND3AIT6LRDHI9R3HM976QUAMY&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1&workerId=A2IGIN0WASUNUM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:27:12] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:30:19] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:04] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:09] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:45:19] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:27] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:46:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+tion using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+task_flag=[0]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming es127.0.0.1 - - [22/Apr/2015 17:46:29] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:29] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:46:42] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:47:07] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:48:51] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:07] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:14] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:17] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:49:31] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 17:53:16] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:07:03] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:07:05] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:08:11] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:09:00] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:23] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+pecially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java 127.0.0.1 - - [22/Apr/2015 18:11:36] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:52] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3TUOHPJXYHBC0WHU7JK2L8RDZ5LWXQ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:11:57] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:24] "GET /06/evaluating/?taskId=1&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=36KM3FWE3RQPDRAIWZNJKE5LW7W072 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:12:26] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:26] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:27] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:47] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3RHLQY6EDTIMTOTT6DD7W95UZUE4DE HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:12:49] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:50] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:12:50] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=30IRMPJWDZX1801196V78FBUBHPKRK HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best 127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:06] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:29] "GET /06/evaluating/?taskId=1&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3PUOXASB57HQTV41FQYV49ZD94ZZ91 HTTP/1.0" 500 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:13:31] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:49] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3I01FDIL6MMCQAE62ZUJ3U8WFGE2DC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:51] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:52] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:52] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:14:52] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:32] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3D0LPO3EABDTVSY2LTFUNSL0Y9GOYC HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:34] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:34] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:34] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:34] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:45] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3ACRLU860NSB6TS2HNYEA5TL9YSEBJ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:47] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:47] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', None, u'directions', u'Introduction', u'I know some OOP like java but I am new to python', u'Head first in Java', u'I need to build a web application using python. The web framework I choose is flask. So the best tutorial will be python+flask.', 5, 5, 5, u'python programming especially on framework flask')]
+[(1, u'python programming', u'website', u'video', N127.0.0.1 - - [22/Apr/2015 18:15:47] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:47] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:53] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:53] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:53] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:53] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:57] "GET /06/voting/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IZPORCT1FNA6A0T3LSAVNV2J0QRHS HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:59] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:15:59] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:16:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:16:03] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:16:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:16:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 18:31:04] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:07:33] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:08:13] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3PJ71Z61R5GVKJHNXHU51ZAK2XO91H&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU&workerId=A3U1K9X1LXA5JA&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:09:22] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:22:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:22:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:22:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:22:50] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:22:58] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:23:04] "GET /06/result/ HTTP/1.0" 200 -
