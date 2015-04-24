@@ -72,15 +72,15 @@
 	 <td width="50%"  bgcolor="#F0F0F0">
 		  <div id="requester">
 			<h2>Tutorial Requirements</h2>
-			  <h3>Requited tutorial topic</h3>
+			  <h3> Tutorial Topic</h3>
 			  <label  id="requesterTutorialTopicLabel"></label><br>
-			  <h3>Required tutorial formats</h3>
+			  <h3> Tutorial Formats</h3>
 			  <label  id="requesterTutorialFormatsLabel"></label><br>
-			   <h3>Required level of detail</h3>
+			   <h3>Tutorial Level</h3>
 			  <label  id="requesterLevelOfDetailLabel"></label><br>
-			  <h3>Desired skill to be acquired</h3>
+			  <h3>Desired skill to learn</h3>
 			  <label  id="desiredskillLabel"></label>
-			  <h3>Already known information</h3>
+			  <h3>What you don't have to find</h3>
 			  <label  id="alreadyknowninformationLabel"></label>
 			  <h3>Sample tutorial</h3>
 			  <label  id="sampletutorialLabel"></label>
@@ -145,7 +145,7 @@ function readinputarguments(){
    tutorialTitle='{{ workerTutorialTitle}}';
    contentlabeltext='{{ workerTutorialContent}}';
    resourceurltext='{{ workerTutorialResourceUrl}}';
-   commentlabeltext='{{ workerTutorialComment}}';
+   commentlabeltext='{{ workerTutorialComment}}'+'';
    requesterTutorialTopic='{{ requesterTutorialTopic}}'
    requesterTutorialFormats='{{ requesterTutorialFormats}}'
    requesterLevelOfDetail='{{ requesterLevelOfDetail}}'
@@ -159,20 +159,16 @@ function readinputarguments(){
 
 function getaction(form){
 	
-    //document.getElementById("submitButtonId").disabled = true;
-	//alert(document.getElementById('radiobuttonYes').value)
 	jQuery.ajax("/"+urlprefix+"/tutorialevaluating/",{
 			type: "POST",
 			data: $('form').serialize(),
 			success: function(data) {
-			//alert(data.result);
 		    },
 			error: function(){
 			alert('error');
 			$("#myform").submit();
 			},
 	});
-  // form.action=formAction;
 }
 
 function fillContent() {
