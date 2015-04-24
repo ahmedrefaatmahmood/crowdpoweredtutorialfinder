@@ -67,17 +67,17 @@
 	
 			<div>
 			<h2>Tutorial Requirements</h2>
-			  <h3>Required tutorial topic</h3>
+			  <h3> Tutorial Topic</h3>
 			  <label  id="requesterTutorialTopicLabel"></label><br>
-			  <h3>Required tutorial formats</h3>
+			  <h3> Tutorial Formats</h3>
 			  <label  id="requesterTutorialFormatsLabel"></label><br>
-			   <h3>Required level of detail</h3>
+			   <h3>Tutorial Level</h3>
 			  <label  id="requesterLevelOfDetailLabel"></label><br>
-			    <h3>Desired skill to be acquired</h3>
+			    <h3>Desired skill to learn</h3>
 			  <label  id="desiredskillLabel"></label>
-			  <h3>Already known information</h3>
+			  <h3>What you don't have to find</h3>
 			  <label  id="alreadyknowninformationLabel"></label>
-			  <h3>Sample tutorial</h3>
+			  <h3>Sample Tutorial</h3>
 			  <label  id="sampletutorialLabel"></label>
 			  <h3>Comment</h3>
 			  <label  id="requestercommentLabel"></label>
@@ -153,19 +153,16 @@ function readinputarguments(){
 }
 
 function getaction(form){
-    document.getElementById("submitButtonId").disabled = true;
 	jQuery.ajax("/"+urlprefix+"/tutorialvoting/",{
 			type: "GET",
 			data: $('form').serialize(),
 			success: function(data) {
-			//alert(data.result);
 		    },
 			error: function(){
 			alert('error');
 			$("#myform").submit();
 			},
 	});
-  // form.action=formAction;
    
 }
 

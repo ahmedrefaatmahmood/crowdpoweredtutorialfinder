@@ -1090,3 +1090,569 @@ tutorial will be python+flask.', 5, 5, 5, u'python programming especially on fra
 127.0.0.1 - - [22/Apr/2015 19:22:50] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
 127.0.0.1 - - [22/Apr/2015 19:22:58] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
 127.0.0.1 - - [22/Apr/2015 19:23:04] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:32:33] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:33:47] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:53:21] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:56:34] "GET /06/evaluating/?taskId=1&tutorialId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 19:56:42] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 20:01:28] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 20:03:31] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 20:03:35] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 21:32:57] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 23:17:50] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [22/Apr/2015 23:17:52] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 10:08:47] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 10:37:36] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 10:37:37] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:06:19] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:12:16] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [23/Apr/2015 11:12:18] "GET /06/task_result/?taskId=2 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:12:30] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:02] "GET /06/collection/?taskId=2&assignmentId=3IGI0VL648Y15DSI4TBLVWIC0YKNOO&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A36SM7QM8OK3H6&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:07] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:10] "GET /06/collection/?taskId=2&assignmentId=3TDXMTX3CC8J26BN7HCZ9O04TZX6I3&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2Y5DDEPG81LLJ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:11] "GET /06/collection/?taskId=2&assignmentId=3FPRZHYEPZLPRT85NMDKHAEERAR3VR&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2541C8MY0BYV3&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:12] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:15] "GET /06/collection/?taskId=2&assignmentId=3OSWBBLG1FBFDAFXGQKEI4XBYYODX2&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=AHSQOWJG4HA3S&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:26] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:34] "GET /06/collection/?taskId=2&assignmentId=3OSWBBLG1FBFDAFXGQKEI4XBYYODX2&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=AU7A3QNJF3O00&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:43] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:43] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:43] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:13:43] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:14:13] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:14:17] "GET /06/collection/?taskId=2&assignmentId=340UGXU9DZF9QNLO269L4J4E4NAVUQ&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2MFQ11WV445GC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:14:38] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:14:47] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:14:58] "GET /06/collection/?taskId=2&assignmentId=3TDXMTX3CC8J26BN7HCZ9O04TZX6I3&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2LXSIDS3XX5KB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:16:10] "GET /06/collection/?taskId=2&assignmentId=3FPRZHYEPZLPRT85NMDKHAEERAR3VR&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2541C8MY0BYV3&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:16:29] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:16:32] "GET /06/collection/?taskId=2&assignmentId=3FPRZHYEPZLPRT85NMDKHAEERAR3VR&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2DZW5E52SJ93H&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:17:11] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:17:15] "GET /06/collection/?taskId=2&assignmentId=3X66WABAJXW69WIAYREYH9B44V2G3E&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A26U612NS056BR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:18:03] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:18:03] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:18:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:18:03] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:19:05] "GET /06/collection/?taskId=2&assignmentId=3FPRZHYEPZLPRT85NMDKHAEERAR3VR&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A2JAXR0JNTQOMA&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:19:07] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:19:25] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:19:34] "GET /06/collection/?taskId=2&assignmentId=3A1PQ49WVIVOZPZ6VTIXEG88LB21H7&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A1LRJ2MQD4AMES&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:22:10] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [23/Apr/2015 11:22:19] "GET /06/collection/?taskId=2&assignmentId=3A1PQ49WVIVOZPZ6VTIXEG88LB21H7&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A1LRJ2MQD4AMES&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:22:32] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=32RIADZISTIUHXA5T5DYGSMD66T4S8&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65&workerId=AOPG07J95DDJT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:22:50] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:22:51] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:23:00] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:23:02] "OPTIONS /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:23:24] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:24:57] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:25:09] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:26:41] "GET /06/collection/?taskId=2&assignmentId=3X66WABAJXW69WIAYREYH9B44V2G3E&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A26U612NS056BR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:27:32] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [23/Apr/2015 11:27:45] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:01] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:32] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3RXCAC0YIS3SATOGA89U8QJFKHW8G0&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=A1WUZOLVPEXOLE&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:41] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:43] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:28:50] "GET /06/collection/?taskId=2&assignmentId=386CSBG1O00WJ4Z6KPH8IQRQK9EQ6Q&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A19WXS1CLVLEEX&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:09] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=32RIADZISTIUHXA5T5DYGSMD66TS4W&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=A38K3QQPV8CTPC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:09] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=3COPXFW7XCQII7JGMGWKS46YG8CKPY&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=A38K3QQPV8CTPC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:25] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:51] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=39JEC7537VFD4T4OGFOLADI8XN4VCH&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=A6LILYEG29KD0&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:29:58] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3N4BPTXIO96VACRC32VE2ATXOP4KUU&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=A142ZRU284W9O&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:00] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:11] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:12] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:26] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:30:57] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:31:23] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=3QECW5O0KIFDSGRKWA1YVPOD8L35T4&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65&workerId=A38K3QQPV8CTPC&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:31:54] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:32:38] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:33:50] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:34:08] "GET /06/collection/?taskId=2&assignmentId=386CSBG1O00WJ4Z6KPH8IQRQK9EQ6Q&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10&workerId=A19WXS1CLVLEEX&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:34:32] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:34:37] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3N4BPTXIO96VACRC32VE2ATXOP4KUU&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=A142ZRU284W9O&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:34:48] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:35:06] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:35:22] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:35:33] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:35:42] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:35:50] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:03] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:13] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:36:53] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:37:04] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:38:26] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:39:06] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:40:49] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:42:57] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=3TAYZSBPLMMKEJVIPRUANDPFMSYS21&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:03] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:05] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:09] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3S4AW7T80CW7DKFF9WGX468IECM4LV&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:14] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:15] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:43:45] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=32RIADZISTIUHXA5T5DYGSMD66US4X&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:44:08] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:44:11] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3N1FSUEFL6EOF8RNWFI9LT0D53KD4O&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=A2QE8V300W9B5E&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:44:13] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [23/Apr/2015 11:44:49] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:05] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=3TXD01ZLD5VAWA29IA8YVT41R3EU4E&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX&workerId=AOPG07J95DDJT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:13] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:32] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:33] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3LWJHTCVCD0S2XSHLIKCCW43D8IFQJ&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AOPG07J95DDJT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:35] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:44] "POST /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3LWJHTCVCD0S2XSHLIKCCW43D8IFQJ&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AOPG07J95DDJT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [23/Apr/2015 11:45:50] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:45:54] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=33FBRBDW6PDFTH8B8MDBIZY0MP58CR&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=AOPG07J95DDJT&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:00] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:09] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:17] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:28] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OSWBBLG1FBFDAFXGQKEI4XBYYQDX4&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:31] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:46:43] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OSWBBLG1FBFDAFXGQKEI4XBYYQDX4&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AK48VEWY84OSM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:47:06] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:47:18] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:48:04] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:48:09] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=3KYQYYSHYWLSJ115FZXIZR6IMUKDOY&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=A2QE8V300W9B5E&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:02] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:09] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:21] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:21] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:21] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:21] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:21] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:22] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:22] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:49:40] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:51:41] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:52:17] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:53:03] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:54:34] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:54:37] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OHYZ19UGDJULUYTVP6G9QYC1RNOA7&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A29QSUM0DRB2QB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:54:52] "POST /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OHYZ19UGDJULUYTVP6G9QYC1RNOA7&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A29QSUM0DRB2QB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [23/Apr/2015 11:55:23] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 11:55:28] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=3QBD8R3Z22XFJ5ICMOWPWNCC9HS4OD&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65&workerId=A29QSUM0DRB2QB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:00:09] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:01:35] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:01:40] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=36TFCYNS45OWPQKZ2M349PC9QQJXHX&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65&workerId=A2WX7OU8PTZH31&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:02:11] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:02:26] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:02:37] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:02:37] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:02:50] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:03:30] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:03:43] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:03:49] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3W92K5RLWVVS58V9151DW7CY56KV5B&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A2WX7OU8PTZH31&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:04] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:08:16] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:09:15] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3W92K5RLWVVS58V9151DW7CY56KV5B&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A2WX7OU8PTZH31&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:09:54] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:09:56] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=3IXEICO793X9BKRY1TB3NV2D4GFT69&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=A2JL0ZAMJJ8N14&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:10:23] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:10:34] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=33F859I567RPCNHYXQBMKSLH7NWBH3&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A20MHUOM70UPKW&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:10:49] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:10:59] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=3RXPCZQMQQPAZT4VBN0FTGW76BS1GB&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P&workerId=A20MHUOM70UPKW&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:11:59] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:24] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:29] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3LOTDFNYA8DXMUO3XRJI4LMP190WF5&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3KEEQM2XJTZ1A&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:29] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:33] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=30ZX6P7VF99RFGCS2XLWVCYSQ9MJ2D&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AQ53RSYGN6I8J&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:42] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:12:45] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3KAKFY4PGVGK5NO5OFE12LOKJ8Y3IX&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3I2DGFSBEB92T&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:14:04] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3KAKFY4PGVGK5NO5OFE12LOKJ8Y3IX&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3I2DGFSBEB92T&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:14:15] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:14:18] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3Z3ZLGNNSJ8XMLCO1NJABNF6AIF3Q0&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A2QE8V300W9B5E&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:14:43] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3LOTDFNYA8DXMUO3XRJI4LMP190WF5&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3KEEQM2XJTZ1A&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:14:44] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=30ZX6P7VF99RFGCS2XLWVCYSQ9MJ2D&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=AQ53RSYGN6I8J&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:16:41] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OHYZ19UGDJULUYTVP6G9QYC1RNOA7&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A29QSUM0DRB2QB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:17:33] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3OHYZ19UGDJULUYTVP6G9QYC1RNOA7&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A29QSUM0DRB2QB&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:30:06] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 12:56:49] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:10:21] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:11:41] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3YW4XOSQKRZT4B5QVSPWXVXYFJ9U16&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3BO1974J24P8B&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:12:33] "POST /06/evaluating/?taskId=2&tutorialId=4&assignmentId=3YW4XOSQKRZT4B5QVSPWXVXYFJ9U16&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I&workerId=A3BO1974J24P8B&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 405 -
+127.0.0.1 - - [23/Apr/2015 13:15:09] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3QD8LUVX4XCIND2ABIXTV8E0F8T5XU HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3KVQ0UJWPXZ3YDXK1D17TP0T66N5W1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:19:26] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3DWGDA5POFIRV6WWAGUZ4X4YNHFV1Y HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:20:14] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:20:29] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:20:48] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:21:41] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:21:44] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:22:34] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:04] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:06] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:06] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:07] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:08] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:09] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:09] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:09] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:10] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:10] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:11] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:26:20] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 13:33:56] "GET /06/evaluating/?taskId=2&tutorialId=4&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3M4KL7H8KV16GGHV98MRS5OZ6PM61I HTTP/1.0" 200 -
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+ * Restarting with stat
+127.0.0.1 - - [23/Apr/2015 18:08:59] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:09:34] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:09:52] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:09:52] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:09:52] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:09:52] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:35] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:47] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:53] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:53] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:53] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:53] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:10:57] "GET /06/collection/?taskId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3BAKUKE49HQZ2ZFF1WPP30FV2CZR10 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:02] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:02] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:03] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:12] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:24] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:32] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:32] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:32] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:35] "GET /06/evaluating/?taskId=2&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Z56AA6EK4E3C53K2U5PCXC240GM65 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:37] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:37] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:41] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:11:52] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:00] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:00] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:02] "GET /06/evaluating/?taskId=2&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3B6F54KMR2QB3EFSGLPUTAKROEIS1P HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:05] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:09] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:20] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:26] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:12:29] "GET /06/evaluating/?taskId=2&tutorialId=3&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3IQ9O0AYW6DNIKO5DSFQVEXZ7Z8ITX HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:13:57] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:14:02] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:14:08] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:14:27] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:22:28] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [23/Apr/2015 18:22:28] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:22:35] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:22:54] "GET /06/collection/?taskId=1&assignmentId=3PIWWX1FJKKRLCA09IROUTK9SLRJJL&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06&workerId=AKM7BAAH9OPGW&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:22:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:04] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:05] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:08] "GET /06/collection/?taskId=1&assignmentId=3A0EX8ZRN92BYI7N7QFA6SGKXKRBYM&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06&workerId=A234SA9RO156TR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:25] "GET /06/collection/?taskId=1&assignmentId=3WSELTNVR4GAYM31R6SF304Z00NTAJ&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06&workerId=A1LSEVXPEYMJL7&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:23:57] "GET /06/collection/?taskId=1&assignmentId=3GD6L00D3TBAR30HMQYA6LG42YMM1O&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06&workerId=A2460MAJX0NA82&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:24:01] "GET /06/collection/?taskId=1&assignmentId=3GFK2QRXXAV5KXVERF69I9VCCG4W56&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06&workerId=A3NKA0NIM0TX5C&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:24:04] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:24:05] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:24:16] "GET /06/requester HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:24:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+ * Detected change in '/d/u/liu1550/crowdpoweredtutorialfinder/main.py', reloading
+task_flag=[0]
+task_flag=[0]
+task_flag=[0]
+request_count=1
+task_flag=[0]
+ * Running on http://127.0.0.1:8006/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Apr/2015 18:29:40] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:29:54] "POST /06/requester HTTP/1.0" 302 -
+127.0.0.1 - - [23/Apr/2015 18:29:54] "GET /06/task_result/?taskId=1 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:30:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:30:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:30:31] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:30:58] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:32:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:32:41] "GET /06/collection/?taskId=1&assignmentId=3QIYRE09Y4VG9LLHYRDAJ0547OWN1P&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A3W1WV731SLD7X&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:32:56] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:33:58] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:34:30] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:35:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:35:24] "GET /06/collection/?taskId=1&assignmentId=3EFVCAY5L4N21VEHIEUX53BVCAY8JR&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2R9VWNAOREXQ7&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:35:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:35:52] "GET /06/collection/?taskId=1&assignmentId=32ZKVD547G1AIFAZI5MKGYK7OJX3B9&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=AIC8CB12DQC0K&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:36:11] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:37:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:38:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:39:01] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:40:13] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:40:17] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:41:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:41:25] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:41:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:42:15] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:42:26] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:43:18] "GET /06/collection/?taskId=1&assignmentId=3KRVW3HTZOZALNZBZ9DU2M3DSY0MS9&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=AMZE7O09XBRBA&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:43:30] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:44:09] "GET /06/collection/?taskId=1&assignmentId=3KRVW3HTZOZALNZBZ9DU2M3DSY0MS9&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=AMZE7O09XBRBA&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:44:39] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:44:48] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:44:55] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:45:22] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:45:33] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:49:14] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:49:41] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:49:44] "GET /06/collection/?taskId=1&assignmentId=3U84XHCDIDRRI9WJOX76CLJGTMEZ4V&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2Q1JUSJ9THUDZ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:49:48] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:51:45] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:52:15] "GET /06/collection/?taskId=1&assignmentId=3IKZ72A5B5U7Z0FP5QSV829Y8YGFNJ&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2F79GFUWU5O96&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:55:29] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:55:30] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:56:43] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:56:56] "GET /06/collection/?taskId=1&assignmentId=3IKZ72A5B5U7Z0FP5QSV829Y8YGFNJ&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2F79GFUWU5O96&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:58:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:58:07] "GET /06/collection/?taskId=1&assignmentId=3ON104KXQLANOEREDANZDHPYCKBW43&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A34VLM2UC0JY11&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:58:34] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:59:01] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:59:22] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=33PPUNGG39JYJFYHZ93JKEUQL00ZRG&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A17KIXJGFCB7ZQ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:59:26] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 18:59:42] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:00:12] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3R2PKQ87NXMLR9WFUXJGYKXQJ0ZMII&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A5NE8TWS8ZV7B&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:00:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3HQUKB7LNGSZ30KKXILI63OF21LHHB&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A2F79GFUWU5O96&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:00:56] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:01:01] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:01:44] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:04:16] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:06:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:06:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:06:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:07:08] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:07:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3CKVGCS3PGJBWPUAK2LUF51HJNUS06 HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:07:40] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:07:40] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:09:10] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3HQUKB7LNGSZ30KKXILI63OF21LHHB&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A2F79GFUWU5O96&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:10:06] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:10:30] "GET /06/collection/?taskId=1&assignmentId=3LQ8PUHQFM6ZZVV430336FPU2E0IH5&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2EOOF9D135HQ1&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:11:54] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=34J10VATJGCCCOU7MQQXFTHVT1WIQ1&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A1BPHW0KCTG34P&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:14:36] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:15:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:15:43] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:15:51] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:15:52] "GET /06/collection/?taskId=1&assignmentId=3PMBY0YE28HF7MRLDEJPIVTB6W9C98&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A24DYXCGZQUZUQ&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:16:35] "GET /06/collection/?taskId=1&assignmentId=3AZHRG4CU5Y9YS7PKPPVWHOOXF303N&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=AZWM5WGXN5HR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:18:05] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:18:33] "GET /06/collection/?taskId=1&assignmentId=33NF62TLXKGMWWGIR3R0V8KM7AUKJO&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A20KCGC5OGLHO0&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:18:58] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3R2PKQ87NXMLR9WFUXJGYKXQJ0ZMII&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A5NE8TWS8ZV7B&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:20:34] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:20:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:23:58] "GET /06/collection/?taskId=1&assignmentId=32XVDSJFP0BHGOID5UYOB4Q9U44M29&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A3NKA0NIM0TX5C&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:24:23] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:24:42] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:25:58] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:26:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:27:20] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:27:41] "GET /06/collection/?taskId=1&assignmentId=31T4R4OBOTUBT33SYHL54Z25B6M7CS&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A1BPHW0KCTG34P&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:27:57] "GET /06/collection/?taskId=1&assignmentId=32XVDSJFP0BHGOID5UYOB4Q9U44M29&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A3NKA0NIM0TX5C&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:28:01] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:28:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3PH3VY7DJMB3RBF3Y3DP7D27DFHZWL&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=AB033Q1DKDPVR&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:29:06] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:32:47] "GET /06/collection/?taskId=1&assignmentId=3S96KQ6I9NI8WT6DBGJHT1C5L3QDTB&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A2IGIN0WASUNUM&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:34:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:38:47] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:41:18] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:43:56] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:45:39] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:45:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:47:19] "GET /06/collection/?taskId=1&assignmentId=31T4R4OBOTUBT33SYHL54Z25B6M7CS&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A1BPHW0KCTG34P&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:47:44] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:48:21] "GET /06/collection/?taskId=1&assignmentId=31QTRG6Q2URD2C8XQVXB1CL9EOBPYQ&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A13WPY58VH89M5&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:48:57] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:49:28] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:49:32] "GET /06/collection/?taskId=1&assignmentId=3MAOD8E57ROOZM6A5KYHE995C3GNXM&hitId=302OLP89DZLRQL3WFISNP69C66LACM&workerId=A3RD30VDG7UNV8&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:49:38] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:51:49] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:53:02] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:53:51] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:57:30] "POST /06/tutorialcollection/ HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/local/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/local/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [23/Apr/2015 19:57:35] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:57:35] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:57:51] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:57:51] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:57:51] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:58:03] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:58:09] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:58:20] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:58:22] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3OVR4I9USQXI4HVS11OTLS7COJZ4QC&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG&workerId=ARSXA2ZPDMVVL&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:59:05] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:59:39] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 19:59:50] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:14] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:14] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:31] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:31] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:31] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:38] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:45] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:53] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:53] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:00:53] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:01:05] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:02:59] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:03:00] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:06:14] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:06:26] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=3CCZ6YKWR8XU81I6Y4WH4PN1EFR951&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG&workerId=AJAOE1PSNKGUE&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:07:06] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:08:43] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:09:10] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:09:10] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:09:10] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:09:34] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:12:23] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:12:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:30] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:36] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:36] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:36] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:40] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:43] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:49] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:56] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:56] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:14:56] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:04] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:06] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:19] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:25] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:25] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:26] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:30] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:15:32] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:33:02] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:42:24] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:42:24] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 20:42:24] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:41:26] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:41:43] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:42:16] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:42:59] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:51:46] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 21:51:59] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3LOTDFNYA8DXMUO3XRJI4LMP1AXFWN&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A1UL0HQUZQPMSX&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:34:11] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:35:42] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:36:02] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:39:35] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:39:44] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=3C8HJ7UOP887MZLPU172YF0GFDHMZV&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN&workerId=A3J2XYU1BP69PY&turkSubmitTo=https%3A%2F%2Fwww.mturk.com HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:40:15] "POST /06/tutorialevaluating/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:56:14] "GET /06/result/ HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:56:59] "GET /06/evaluating/?taskId=1&tutorialId=2&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=31KPKEKW4ARCF3D89GZZPGRHFZB0BG HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:56:59] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:56:59] "GET /06/collection/?taskId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=302OLP89DZLRQL3WFISNP69C66LACM HTTP/1.0" 200 -
+127.0.0.1 - - [23/Apr/2015 22:57:05] "GET /06/evaluating/?taskId=1&tutorialId=1&assignmentId=ASSIGNMENT_ID_NOT_AVAILABLE&hitId=3Y40HMYLL1WZ8SSPCJ513K6GER1XUN HTTP/1.0" 200 -
