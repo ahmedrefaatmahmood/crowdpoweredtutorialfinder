@@ -318,9 +318,9 @@ def evaluatetutorial():
 				print str(row1)
 				Id = row1[0]
 				print str(Id)
-				if row1[10]<row1[11]:
-				   db.execute ('delete from tutorials where id = ? and taskid = ?',(Id,taskId))
-				   db.commit()
+				#if row1[10]<row1[11]:
+				#   db.execute ('delete from tutorials where id = ? and taskid = ?',(Id,taskId))
+				#   db.commit()
 			cur2 = db.execute('select * from tutorials where taskid = ?',taskId)
 			row2 = cur2.fetchall()
 			if row2:
@@ -395,7 +395,7 @@ def review():
 		desiredskill=row1[0][13]
 		desiredskill = desiredskill.replace("-","").replace("\r","").replace("\n","")
 	
-		cur2 = db.execute('select * from tutorials where taskid = ?  ', taskId)
+		cur2 = db.execute('select * from tutorials where agree >= disagree and taskid = ?  ', taskId)
 		tutorials = [dict(id=row2[0], title=row2[2],content=row2[4],agree=row2[10],disagree=row2[11]) for row2 in cur2.fetchall()]
 	    
     return render_template('Votetutorials.html',requesterTutorialTopic=requesterTutorialTopic,
@@ -406,28 +406,38 @@ def review():
 
 @app.route(URL_PERFIX+'/tutorialvoting/',methods=['GET','POST'])
 def voting():
-    with lock:
-		taskId = request.args.get('taskId')
-		tutorial1 = request.args.get('vote1')
-		tutorial2 = request.args.get('vote2')
-		assignmentId = request.args.get('assignmentId')
-		hitId = request.args.get('hitId')
-		workerId = request.args.get('workerId')
-		turkSubmitTo = request.args.get('turkSubmitTo')
 	
+	with lock:
+		print ("tutorialvoting")
+		taskId = request.form.get('taskId')
+		tutorial1 = request.form.get('vote1')
+		tutorial2 = request.form.get('vote2')
+		assignmentId = request.form.get('assignmentId')
+		hitId = request.form.get('hitId')
+		workerId = request.form.get('workerId')
+		turkSubmitTo = request.form.get('turkSubmitTo')
+		votes_count = 0
 		index = int(taskId)-1
 		global voter_count
 		voter_count[index] = voter_count[index]-1
-		print 'voter_count'+str(voter_count)
+		
 		db = get_db()
 		input=[(taskId,tutorial1,tutorial2,assignmentId,hitId,workerId,turkSubmitTo)]   
 		db.executemany('insert into votes values(?,?,?,?,?,?,?)',input)
 		db.commit()
-	
-		if voter_count[index] == 0:
-		   #inform the requester about the result
-		   task_flag[index] = 1
-    return jsonify(result=1)
+		
+			
+		cur = db.execute('select count(*) from votes where taskid=?',taskId)
+		row = cur.fetchall()
+		if row[0][0]:
+			votes_count=row[0][0]+1
+		print 'voter_count'+str(votes_count)
+		
+		#if voter_count[index] <= 0:
+		if votes_count >= crowdlib_settings.cls.default_max_assignments :
+			print ("all done ")
+			task_flag[index] = 1
+	return jsonify(result=1)
        
     
 @app.route(URL_PERFIX+'/result/',methods=['GET'])

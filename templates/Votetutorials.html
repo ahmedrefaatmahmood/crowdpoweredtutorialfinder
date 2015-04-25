@@ -32,8 +32,8 @@
 		}
 	</style>
 </head>
-<body onload="fillContent()">
- <form  method="POST" id ="myForm" onsubmit="getaction(this)">
+<body >
+ <form  method="POST" id ="myForm">
 <div >
    <table style="width:100%">
 	<tr>
@@ -152,21 +152,51 @@ function readinputarguments(){
   
 }
 
-function getaction(form){
-	jQuery.ajax("/"+urlprefix+"/tutorialvoting/",{
-			type: "GET",
-			data: $('form').serialize(),
-			success: function(data) {
-		    },
-			error: function(){
-			alert('error');
-			$("#myform").submit();
-			},
+$("#myForm").submit(function(e) {
+		
+		e.preventDefault();
+		jQuery.ajax("/"+urlprefix+"/tutorialvoting/",{
+				type: "POST",
+				data: $('form').serialize(),
+				success: function(data) {
+					try{
+						
+					}
+					catch(err){
+					}
+					finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				},
+				error: function(){
+					try{
+						alert('err');
+					}catch(err){
+					}finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				},
+				 complete: function() { 
+					try{
+						
+					}catch(err){
+					}finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				}
+		});
+		
+		
 	});
-   
-}
 
-function fillContent() {
+$( document ).ready(function() {
+    console.log( "document loaded" );
     readinputarguments();
    
     document.getElementById('assignmentId').value  =assignmentIdVar;
@@ -194,11 +224,7 @@ function fillContent() {
 
 	document.getElementById("myForm").action= turkSubmitToVar+ "/mturk/externalSubmit";
 	
-
-	
-	
-	
-}
+});
 </script>
 </body>
 </html>

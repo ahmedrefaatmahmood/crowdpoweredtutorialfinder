@@ -43,8 +43,8 @@ h3              { font-family: 'Georgia'; color:red;}
 }
  </style>
 </head>
-<body onload="fillContent()">
-<form  method="POST" id ="myForm" onsubmit= "getaction(this)" >
+<body ">
+<form  method="POST" id ="myForm"  >
 <div id="content">
   <table style="width:100%">
 	<tr>
@@ -128,87 +128,110 @@ h3              { font-family: 'Georgia'; color:red;}
  </form>
 
  <script>
-  var urlprefix="06";
-  var formAction="https://workersandbox.mturk.com/mturk/externalSubmit";
-  var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
-  var hitIdVar="hitId";
-  var workerIdVar="workerId";
-  var turkSubmitToVar="turkSubmitTo";
-  var requesterTutorialTopic='This is a sample requester tutorial information';
-  var requesterTutorialFormats='url, video, aduio';
-  var requesterLevelOfDetail='Beginner';
-  var desiredskill='sample desiredskill';
-  var alreadyknowninformation='sample alreadyknowninformation';
-  var sampletutuorial='sample sampletutuorial';
-  var requesterComments='sample requester comments';
-  var taskId="";
+	var urlprefix="06";
+	var formAction="https://workersandbox.mturk.com/mturk/externalSubmit";
+	var assignmentIdVar='ASSIGNMENT_ID_NOT_AVAILABLE';
+	var hitIdVar="hitId";
+	var workerIdVar="workerId";
+	var turkSubmitToVar="turkSubmitTo";
+	var requesterTutorialTopic='This is a sample requester tutorial information';
+	var requesterTutorialFormats='url, video, aduio';
+	var requesterLevelOfDetail='Beginner';
+	var desiredskill='sample desiredskill';
+	var alreadyknowninformation='sample alreadyknowninformation';
+	var sampletutuorial='sample sampletutuorial';
+	var requesterComments='sample requester comments';
+	var taskId="";
   
-
-function getaction(form){
-	jQuery.ajax("/"+urlprefix+"/tutorialcollection/",{
-			type: "POST",
-			data: $('form').serialize(),
-			success: function(data) {
-	     	},
-			error: function(){
-			alert('error');
-			$("#myform").submit();
-			},
+	$("#myForm").submit(function(e) {
+		
+		e.preventDefault();
+		jQuery.ajax("/"+urlprefix+"/tutorialcollection/",{
+				type: "POST",
+				data: $('form').serialize(),
+				success: function(data) {
+					try{
+						
+					}
+					catch(err){
+					}
+					finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				},
+				error: function(){
+					try{
+						alert('err');
+					}catch(err){
+					}finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				},
+				 complete: function() { 
+					try{
+						
+					}catch(err){
+					}finally{
+						
+						$("#myForm").off('submit');
+						$("#myForm").submit();
+					}
+				}
+		});
+		
+		
 	});
-   
-}
-
-function readinputarguments(){
-   formAction='{{ formsubmiturl}}';
-   assignmentIdVar='{{ assignmentId}}';
-   hitIdVar='{{ hitId}}';
-   workerIdVar='{{ workerId}}';
-   turkSubmitToVar='{{ turkSubmitTo}}';
-   taskId='{{taskId}}';
-   
-   requesterTutorialTopic='{{ requesterTutorialTopic}}'
-   requesterTutorialFormats='{{ requesterTutorialFormats}}'
-   requesterLevelOfDetail='{{ requesterLevelOfDetail}}'
-   desiredskill = '{{desiredskill}}'
-   sampletutuorial='{{sampletutuorial}}'
-   alreadyknowninformation= '{{alreadyknowninformation}}'
-   requesterComments='{{requesterComments}}'
-}
-function fillContent() {
-    readinputarguments();
-   
-   
-    document.getElementById('assignmentId').value  =assignmentIdVar;
-    document.getElementById('hitId').value  =hitIdVar; 
-    document.getElementById('workerId').value  =workerIdVar;
-    document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
-	document.getElementById('taskId').value  =taskId;
-
 	
-	document.getElementById('requesterTutorialTopicLabel').innerHTML  =requesterTutorialTopic; 
-    document.getElementById('requesterTutorialFormatsLabel').innerHTML  =requesterTutorialFormats;
-    document.getElementById('requesterLevelOfDetailLabel').innerHTML  =requesterLevelOfDetail;
-	 
-	document.getElementById('desiredskillLabel').innerHTML  =desiredskill; 
-    document.getElementById('alreadyknowninformationLabel').innerHTML  =alreadyknowninformation;
-    document.getElementById('sampletutorialLabel').innerHTML  =sampletutuorial;
-	document.getElementById('requestercommentLabel').innerHTML  =requesterComments;
-	
-	if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
-		document.getElementById("submitButtonId").disabled = true;
-		document.getElementById("titileelementid").disabled = true;
-		document.getElementById("urlId").disabled = true;
-		document.getElementById("contentId").disabled = true;
-		document.getElementById("commentid").disabled = true;
-	    document.getElementById("Notice").style.display = 'block';
+	function readinputarguments(){
+		formAction='{{ formsubmiturl}}';
+		assignmentIdVar='{{ assignmentId}}';
+		hitIdVar='{{ hitId}}';
+		workerIdVar='{{ workerId}}';
+		turkSubmitToVar='{{ turkSubmitTo}}';
+		taskId='{{taskId}}';
+		requesterTutorialTopic='{{ requesterTutorialTopic}}'
+		requesterTutorialFormats='{{ requesterTutorialFormats}}'
+		requesterLevelOfDetail='{{ requesterLevelOfDetail}}'
+		desiredskill = '{{desiredskill}}'
+		sampletutuorial='{{sampletutuorial}}'
+		alreadyknowninformation= '{{alreadyknowninformation}}'
+		requesterComments='{{requesterComments}}'
 	}
-	else{
-		document.getElementById("Notice").style.display = 'none';
-	}
-
-    document.getElementById("myForm").action=turkSubmitToVar+"/mturk/externalSubmit"
 	
-}
+	$( document ).ready(function() {
+        console.log( "document loaded" );
+		readinputarguments();
+		document.getElementById('assignmentId').value  =assignmentIdVar;
+		document.getElementById('hitId').value  =hitIdVar; 
+		document.getElementById('workerId').value  =workerIdVar;
+		document.getElementById('turkSubmitTo').value  =turkSubmitToVar;
+		document.getElementById('taskId').value  =taskId;
+		document.getElementById('requesterTutorialTopicLabel').innerHTML  =requesterTutorialTopic; 
+		document.getElementById('requesterTutorialFormatsLabel').innerHTML  =requesterTutorialFormats;
+		document.getElementById('requesterLevelOfDetailLabel').innerHTML  =requesterLevelOfDetail;
+		document.getElementById('desiredskillLabel').innerHTML  =desiredskill; 
+		document.getElementById('alreadyknowninformationLabel').innerHTML  =alreadyknowninformation;
+		document.getElementById('sampletutorialLabel').innerHTML  =sampletutuorial;
+		document.getElementById('requestercommentLabel').innerHTML  =requesterComments;
+		if(assignmentIdVar== 'ASSIGNMENT_ID_NOT_AVAILABLE'){
+			document.getElementById("submitButtonId").disabled = true;
+			document.getElementById("titileelementid").disabled = true;
+			document.getElementById("urlId").disabled = true;
+			document.getElementById("contentId").disabled = true;
+			document.getElementById("commentid").disabled = true;
+			document.getElementById("Notice").style.display = 'block';
+		}
+		else{
+			document.getElementById("Notice").style.display = 'none';
+		}
+		document.getElementById("myForm").action=turkSubmitToVar+"/mturk/externalSubmit"
+		
+	});
+
 </script>
 </body>
 </html>
