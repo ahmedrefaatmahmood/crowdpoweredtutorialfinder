@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <head>
 <title>result</title>
+<style>
+body            { font-family: sans-serif; background: #eee; }
+h1          { font-family: 'Georgia', serif; margin: 0; color: Black;}
+b           { font-family:'Georgia',color: Red;}
+</style>
 </head>
 <body>
 <h1>result</h1>
-<table class=entries>
+<table style="width:100%">
   <tr>
-    <td> Tutorials found right now: </td>
+    <td><b> Tutorials found right now:</b> </td>
   </tr>
-  
+  <tr>
+  </tr>
    {% for entry in votes %}
   <tr>
     <td>{{ entry.field2 }}</td>
   </tr>
   <tr>
-    <td>{{ entry.field3 }}</td>
+    <td>{{ entry.field3 }}</td><br>
   </tr>
   
   {% endfor %}

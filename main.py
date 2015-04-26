@@ -182,9 +182,6 @@ def addTutorial():
 		db.executemany('insert into tutorials values(?,?,?,?,?,?,?,?,?,?,?,?)',input)
 		db.commit()
 	
-		global worker_count
-		index = int(taskId)-1
-	   #worker_count[index] = worker_count[index]+crowdlib_settings.cls.default_max_assignments 
 	
 		hit_type = cl.create_hit_type(
 			 title = "Research Project Generous pay: Evaluate testing tutorials", 
@@ -193,7 +190,6 @@ def addTutorial():
 		hit = hit_type.create_hit( url = "https://crowd.ecn.purdue.edu"+URL_PERFIX+"/evaluating/?taskId="+str(taskId)+"&tutorialId="+str(tutorial_count), height = 800)
 	
 		print "tutorial_count"+str(tutorial_count)
-		print "woker_count"+str(worker_count)
 	return jsonify(result=1)
 	
 
@@ -282,14 +278,8 @@ def evaluatetutorial():
     with lock:
 		taskId = request.form.get('taskId')
 		tutorialId = request.form.get('tutorialId')
-		index = int(taskId)-1
-	 
-		global worker_count
-		global voter_count
-	 
-		#worker_count[index] = worker_count[index] -1
-		print 'worker_count'+str(worker_count)
-	 
+		count = 0
+	 	 
 		db = get_db()
 		cur = db.execute('select * from tutorials where taskid=? and id= ? ',(taskId,tutorialId))
 		row = cur.fetchall()
@@ -314,23 +304,18 @@ def evaluatetutorial():
 		if row[0][0]>=(crowdlib_settings.cls.default_max_assignments *crowdlib_settings.cls.default_max_assignments ):
 			print ("all tutorials has been verified on total "+str(row[0][0]) +" votes")
 			cur1 = db.execute('select * from tutorials where taskid = ?',taskId)
+			cur3 = db.execute('select count(id) from tutorials where taskid=?',taskId)
+			row3 = cur3.fetchall()
+			count = row3[0][0]
 			for row1 in cur1.fetchall():
-				print str(row1)
-				Id = row1[0]
-				print str(Id)
-				#if row1[10]<row1[11]:
-				#   db.execute ('delete from tutorials where id = ? and taskid = ?',(Id,taskId))
-				#   db.commit()
-			cur2 = db.execute('select * from tutorials where taskid = ?',taskId)
-			row2 = cur2.fetchall()
-			if row2:
-			   voter_count[index] = voter_count[index]+crowdlib_settings.cls.default_max_assignments 
+				if row1[10]<row1[11]:
+					count = count-1
+			if count:
 			   hit_type = cl.create_hit_type(
 					 title ="Research Project Generous pay: Vote on testing tutorials?", 
 					 description = "Vote on tutorials",
 					 reward = 0.10)
 			   hit = hit_type.create_hit( url = "https://crowd.ecn.purdue.edu"+URL_PERFIX+"/voting/?taskId="+str(taskId), height = 800)
-			   print "voter_count"+str(voter_count) 
 			else:
 			   print "Goes back to tutorial collection"
 			   hit_type = cl.create_hit_type(
@@ -417,9 +402,7 @@ def voting():
 		workerId = request.form.get('workerId')
 		turkSubmitTo = request.form.get('turkSubmitTo')
 		votes_count = 0
-		index = int(taskId)-1
-		global voter_count
-		voter_count[index] = voter_count[index]-1
+		
 		
 		db = get_db()
 		input=[(taskId,tutorial1,tutorial2,assignmentId,hitId,workerId,turkSubmitTo)]   
@@ -433,10 +416,9 @@ def voting():
 			votes_count=row[0][0]+1
 		print 'voter_count'+str(votes_count)
 		
-		#if voter_count[index] <= 0:
 		if votes_count >= crowdlib_settings.cls.default_max_assignments :
 			print ("all done ")
-			task_flag[index] = 1
+			
 	return jsonify(result=1)
        
     
@@ -467,14 +449,15 @@ def task_result():
 	   else:
 			return app.make_response('bad argument')
    
-	   global task_flag
-	   print 'task_flag='+str(task_flag)
-	   if task_flag[int(taskId)-1]:
+	   db = get_db()
+	   cur1 = db.execute('select count(*) from votes where taskid=?',taskId)
+	   row1 = cur1.fetchall()
+	   if row1[0][0]>= crowdlib_settings.cls.default_max_assignments:
 		  db = get_db()
 		  cur = db.execute('select * from votes where taskid = ?',taskId) 
 		  votes = [dict(field1=row[0],field2=row[1],field3=row[2],filed4=row[3],field5=row[4],field6=row[5],field7=row[6]) for row in cur.fetchall()]
 		  return render_template('task_result.html', votes=votes)     
-	return app.make_response('result not available yet')
+	return render_template('noresult.html')
 
 if __name__== '__main__':
 	#init_db()
